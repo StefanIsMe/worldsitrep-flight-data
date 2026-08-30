@@ -1,0 +1,45 @@
+name: Collect military flight data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: military-flight-collection
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out data repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.x
+      - name: Run normalizer tests
+        run: node tests/military-flight-normalizer.test.mjs
+      - name: Collect current snapshot
+        run: node scripts/collect-military-flights.mjs
+      - name: Commit meaningful snapshot changes
+        shell: bash
+        run: |
+          if git diff --quiet -- flight-data/latest.json flight-data/archive; then
+            echo "No meaningful normalized flight-data change; nothing to commit."
+            exit 0
+          fi
+          git add -- flight-data/latest.json flight-data/archive
+          if git diff --cached --quiet; then
+            echo "No staged flight-data change; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: update military flight snapshot"
+          git push
