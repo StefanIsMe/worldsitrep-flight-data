@@ -5,8 +5,8 @@ export const ASDBDB_AIRCRAFT_URL = "https://api.adsbdb.com/v0/aircraft/";
 export const SOURCE_ID = "adsb.lol";
 export const ASDBDB_SOURCE_ID = "adsbdb";
 export const SCHEMA_VERSION = 2;
-export const MAX_TRACK_POINTS = 8;
-export const TRACK_MAX_AGE_MS = 6 * 60 * 60 * 1000;
+export const MAX_TRACK_POINTS = 2000;
+export const TRACK_MAX_AGE_MS = 24 * 60 * 60 * 1000;
 
 const CLASSIFICATION_RULES = [
   ["fighter", /\b(f[- ]?(15|16|18|22|35)[a-z0-9-]*|su[- ]?(27|30|33|34|35|57)|mig[- ]?(29|31)|jas[- ]?39|rafale|typhoon|eurofighter|gripen)\b/i],
