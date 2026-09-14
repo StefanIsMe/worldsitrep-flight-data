@@ -1,43 +1,46 @@
 {
   "schemaVersion": 2,
-  "collectedAt": "2026-09-14T01:15:23.992Z",
+  "collectedAt": "2026-09-14T06:29:00.752Z",
   "source": {
     "id": "adsb.lol",
     "url": "https://api.adsb.lol/v2/mil"
   },
-  "count": 81,
+  "count": 87,
   "aircraft": [
     {
-      "id": "3b7564",
-      "hex": "3b7564",
-      "callsign": "FAF2623",
-      "registration": "F-UJCQ",
-      "type": "A332",
+      "id": "06a27a",
+      "hex": "06a27a",
+      "callsign": "LHOB293",
+      "registration": "A7-MAM",
+      "type": "C17",
       "description": null,
-      "registeredOwner": null,
-      "registeredOwnerConfidence": "unknown",
-      "country": null,
-      "countryConfidence": "unknown",
-      "countrySource": null,
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 36.34226,
-      "lng": 140.76186,
-      "observedAt": "2026-09-14T01:15:23.821Z",
-      "ageSeconds": 0.2,
+      "registeredOwner": "Qatar Emiri Air Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "Qatar",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/06A27A"
+      },
+      "classification": "transport",
+      "classificationMethod": "model-designation-rule",
+      "classificationConfidence": "medium",
+      "lat": 25.35091,
+      "lng": 51.24267,
+      "observedAt": "2026-09-14T06:28:59.275Z",
+      "ageSeconds": 1.5,
       "telemetry": {
-        "altitudeFeet": 1925,
-        "groundSpeedKnots": 253.7,
-        "headingDegrees": 287.4,
-        "verticalRateFeetPerMinute": null,
-        "squawk": "6036"
+        "altitudeFeet": 5150,
+        "groundSpeedKnots": 278.8,
+        "headingDegrees": 265.7,
+        "verticalRateFeetPerMinute": 832,
+        "squawk": "3272"
       },
       "trackPoints": [
         {
-          "lat": 36.34226,
-          "lng": 140.76186,
-          "observedAt": "2026-09-14T01:15:23.821Z"
+          "lat": 25.35091,
+          "lng": 51.24267,
+          "observedAt": "2026-09-14T06:28:59.275Z"
         }
       ],
       "source": {
@@ -46,39 +49,39 @@
       }
     },
     {
-      "id": "3b7763",
-      "hex": "3b7763",
-      "callsign": "FAF2612",
-      "registration": "F-RBAP",
-      "type": "A400",
+      "id": "14f11c",
+      "hex": "14f11c",
+      "callsign": "30588",
+      "registration": "RA-61724",
+      "type": "A148",
       "description": null,
-      "registeredOwner": "French Air Force",
+      "registeredOwner": "Russian Air Force",
       "registeredOwnerConfidence": "reported",
-      "country": "France",
+      "country": "Russia",
       "countryConfidence": "reported",
       "countrySource": {
         "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/3B7763"
+        "url": "https://api.adsbdb.com/v0/aircraft/14F11C"
       },
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": 37.11009,
-      "lng": 140.94295,
-      "observedAt": "2026-09-14T01:15:22.789Z",
+      "lat": 55.26503,
+      "lng": 39.4435,
+      "observedAt": "2026-09-14T06:28:59.586Z",
       "ageSeconds": 1.2,
       "telemetry": {
-        "altitudeFeet": 13075,
-        "groundSpeedKnots": 318.4,
-        "headingDegrees": 214,
-        "verticalRateFeetPerMinute": -1088,
-        "squawk": "3752"
+        "altitudeFeet": 20625,
+        "groundSpeedKnots": 348,
+        "headingDegrees": 129,
+        "verticalRateFeetPerMinute": 2048,
+        "squawk": "1544"
       },
       "trackPoints": [
         {
-          "lat": 37.11009,
-          "lng": 140.94295,
-          "observedAt": "2026-09-14T01:15:22.789Z"
+          "lat": 55.26503,
+          "lng": 39.4435,
+          "observedAt": "2026-09-14T06:28:59.586Z"
         }
       ],
       "source": {
@@ -87,11 +90,175 @@
       }
     },
     {
-      "id": "3b776e",
-      "hex": "3b776e",
-      "callsign": "CTM2010",
-      "registration": "F-RBAE",
+      "id": "33ffd4",
+      "hex": "33ffd4",
+      "callsign": "IAM1477",
+      "registration": "MM62204",
+      "type": "P180",
+      "description": null,
+      "registeredOwner": "Italian Air Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "Italy",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/33FFD4"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 41.75153,
+      "lng": 12.80358,
+      "observedAt": "2026-09-14T06:28:56.445Z",
+      "ageSeconds": 4.3,
+      "telemetry": {
+        "altitudeFeet": 12925,
+        "groundSpeedKnots": null,
+        "headingDegrees": null,
+        "verticalRateFeetPerMinute": 2061,
+        "squawk": "5464"
+      },
+      "trackPoints": [
+        {
+          "lat": 41.75153,
+          "lng": 12.80358,
+          "observedAt": "2026-09-14T06:28:56.445Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "33ffdc",
+      "hex": "33ffdc",
+      "callsign": "LYF278",
+      "registration": "06 BLUE",
+      "type": "C27J",
+      "description": null,
+      "registeredOwner": "Lithuania Air Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "Lithuania",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/33FFDC"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 62.0386,
+      "lng": 25.28179,
+      "observedAt": "2026-09-14T06:28:58.932Z",
+      "ageSeconds": 1.8,
+      "telemetry": {
+        "altitudeFeet": 24000,
+        "groundSpeedKnots": 136,
+        "headingDegrees": 1,
+        "verticalRateFeetPerMinute": 0,
+        "squawk": "3714"
+      },
+      "trackPoints": [
+        {
+          "lat": 62.0386,
+          "lng": 25.28179,
+          "observedAt": "2026-09-14T06:28:58.932Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "3532c1",
+      "hex": "3532c1",
+      "callsign": "DUMBO05",
+      "registration": "T.23-01",
       "type": "A400",
+      "description": null,
+      "registeredOwner": "Spanish Air Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "Spain",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/3532C1"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 40.6517,
+      "lng": -3.0705,
+      "observedAt": "2026-09-14T06:29:00.685Z",
+      "ageSeconds": 0.1,
+      "telemetry": {
+        "altitudeFeet": 6100,
+        "groundSpeedKnots": 273,
+        "headingDegrees": 270,
+        "verticalRateFeetPerMinute": -2048,
+        "squawk": "3423"
+      },
+      "trackPoints": [
+        {
+          "lat": 40.6517,
+          "lng": -3.0705,
+          "observedAt": "2026-09-14T06:29:00.685Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "3aabfe",
+      "hex": "3aabfe",
+      "callsign": "FMY8051",
+      "registration": "99",
+      "type": "TBM7",
+      "description": null,
+      "registeredOwner": "French Army",
+      "registeredOwnerConfidence": "reported",
+      "country": "France",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/3AABFE"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 48.04656,
+      "lng": 0.07972,
+      "observedAt": "2026-09-14T06:29:00.280Z",
+      "ageSeconds": 0.5,
+      "telemetry": {
+        "altitudeFeet": 18000,
+        "groundSpeedKnots": 272.6,
+        "headingDegrees": 78.4,
+        "verticalRateFeetPerMinute": 0,
+        "squawk": "7731"
+      },
+      "trackPoints": [
+        {
+          "lat": 48.04656,
+          "lng": 0.07972,
+          "observedAt": "2026-09-14T06:29:00.280Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "3b7546",
+      "hex": "3b7546",
+      "callsign": "CMAN25",
+      "registration": "1018",
+      "type": "B350",
       "description": null,
       "registeredOwner": "French Air Force",
       "registeredOwnerConfidence": "reported",
@@ -99,27 +266,27 @@
       "countryConfidence": "reported",
       "countrySource": {
         "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/3B776E"
+        "url": "https://api.adsbdb.com/v0/aircraft/3B7546"
       },
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": 56.59758,
-      "lng": -6.54991,
-      "observedAt": "2026-09-14T01:15:23.992Z",
-      "ageSeconds": 0,
+      "lat": 54.09347,
+      "lng": 20.04983,
+      "observedAt": "2026-09-14T06:28:59.057Z",
+      "ageSeconds": 1.7,
       "telemetry": {
-        "altitudeFeet": 32975,
-        "groundSpeedKnots": 429.6,
-        "headingDegrees": 146.2,
-        "verticalRateFeetPerMinute": 224,
-        "squawk": "6301"
+        "altitudeFeet": 19000,
+        "groundSpeedKnots": 202,
+        "headingDegrees": 97.6,
+        "verticalRateFeetPerMinute": 32,
+        "squawk": "6502"
       },
       "trackPoints": [
         {
-          "lat": 56.59758,
-          "lng": -6.54991,
-          "observedAt": "2026-09-14T01:15:23.992Z"
+          "lat": 54.09347,
+          "lng": 20.04983,
+          "observedAt": "2026-09-14T06:28:59.057Z"
         }
       ],
       "source": {
@@ -128,44 +295,39 @@
       }
     },
     {
-      "id": "48d961",
-      "hex": "48d961",
-      "callsign": "PLF105",
-      "registration": "0002",
-      "type": "GLF5",
+      "id": "3b76ac",
+      "hex": "3b76ac",
+      "callsign": "CTM1S26",
+      "registration": "64-HB",
+      "type": "CN35",
       "description": null,
-      "registeredOwner": "Polish Air Force",
+      "registeredOwner": "French Air Force",
       "registeredOwnerConfidence": "reported",
-      "country": "Poland",
+      "country": "France",
       "countryConfidence": "reported",
       "countrySource": {
         "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/48D961"
+        "url": "https://api.adsbdb.com/v0/aircraft/3B76AC"
       },
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": 36.738,
-      "lng": -90.96165,
-      "observedAt": "2026-09-14T01:15:23.765Z",
-      "ageSeconds": 0.2,
+      "lat": 49.40653,
+      "lng": 1.38787,
+      "observedAt": "2026-09-14T06:28:56.492Z",
+      "ageSeconds": 4.3,
       "telemetry": {
-        "altitudeFeet": 45000,
-        "groundSpeedKnots": 442.8,
-        "headingDegrees": 207.1,
-        "verticalRateFeetPerMinute": null,
-        "squawk": "1543"
+        "altitudeFeet": 15500,
+        "groundSpeedKnots": 174,
+        "headingDegrees": 53.1,
+        "verticalRateFeetPerMinute": 608,
+        "squawk": "0676"
       },
       "trackPoints": [
         {
-          "lat": 48.64504,
-          "lng": -79.20319,
-          "observedAt": "2026-09-13T23:14:10.785Z"
-        },
-        {
-          "lat": 36.738,
-          "lng": -90.96165,
-          "observedAt": "2026-09-14T01:15:23.765Z"
+          "lat": 49.40653,
+          "lng": 1.38787,
+          "observedAt": "2026-09-14T06:28:56.492Z"
         }
       ],
       "source": {
@@ -174,11 +336,380 @@
       }
     },
     {
-      "id": "71dd21",
-      "hex": "71dd21",
-      "callsign": "KCGB521",
-      "registration": "B521",
-      "type": "SURN",
+      "id": "3b77f6",
+      "hex": "3b77f6",
+      "callsign": "FAF9177",
+      "registration": "78",
+      "type": "TBM7",
+      "description": null,
+      "registeredOwner": "French Air Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "France",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/3B77F6"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 45.41538,
+      "lng": 1.42038,
+      "observedAt": "2026-09-14T06:28:59.405Z",
+      "ageSeconds": 1.3,
+      "telemetry": {
+        "altitudeFeet": 18000,
+        "groundSpeedKnots": 247.7,
+        "headingDegrees": 47.6,
+        "verticalRateFeetPerMinute": 64,
+        "squawk": "2310"
+      },
+      "trackPoints": [
+        {
+          "lat": 45.41538,
+          "lng": 1.42038,
+          "observedAt": "2026-09-14T06:28:59.405Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "3b77fa",
+      "hex": "3b77fa",
+      "callsign": "CTM3890",
+      "registration": "95",
+      "type": "TBM7",
+      "description": null,
+      "registeredOwner": "French Air Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "France",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/3B77FA"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 45.80786,
+      "lng": -0.03577,
+      "observedAt": "2026-09-14T06:29:00.752Z",
+      "ageSeconds": 0,
+      "telemetry": {
+        "altitudeFeet": 24000,
+        "groundSpeedKnots": 252.8,
+        "headingDegrees": 22.8,
+        "verticalRateFeetPerMinute": 0,
+        "squawk": "4347"
+      },
+      "trackPoints": [
+        {
+          "lat": 45.80786,
+          "lng": -0.03577,
+          "observedAt": "2026-09-14T06:29:00.752Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "3e95ca",
+      "hex": "3e95ca",
+      "callsign": "GAF610",
+      "registration": "14+05",
+      "type": "GLEX",
+      "description": null,
+      "registeredOwner": "German Air Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "Germany",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/3E95CA"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 51.94011,
+      "lng": 10.15533,
+      "observedAt": "2026-09-14T06:29:00.635Z",
+      "ageSeconds": 0.1,
+      "telemetry": {
+        "altitudeFeet": 34000,
+        "groundSpeedKnots": 477.7,
+        "headingDegrees": 257.3,
+        "verticalRateFeetPerMinute": 0,
+        "squawk": "7772"
+      },
+      "trackPoints": [
+        {
+          "lat": 51.94011,
+          "lng": 10.15533,
+          "observedAt": "2026-09-14T06:29:00.635Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "3f46db",
+      "hex": "3f46db",
+      "callsign": "GAF168",
+      "registration": "54+27",
+      "type": "A400",
+      "description": null,
+      "registeredOwner": "German Air Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "Germany",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/3F46DB"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 50.3822,
+      "lng": 7.8704,
+      "observedAt": "2026-09-14T06:29:00.492Z",
+      "ageSeconds": 0.3,
+      "telemetry": {
+        "altitudeFeet": 10250,
+        "groundSpeedKnots": 298,
+        "headingDegrees": 248.3,
+        "verticalRateFeetPerMinute": -864,
+        "squawk": "1330"
+      },
+      "trackPoints": [
+        {
+          "lat": 50.3822,
+          "lng": 7.8704,
+          "observedAt": "2026-09-14T06:29:00.492Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "3f49e6",
+      "hex": "3f49e6",
+      "callsign": "GAF277",
+      "registration": "54+23",
+      "type": "A400",
+      "description": null,
+      "registeredOwner": "German Air Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "Germany",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/3F49E6"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 52.45801,
+      "lng": 9.41595,
+      "observedAt": "2026-09-14T06:28:55.531Z",
+      "ageSeconds": 5.2,
+      "telemetry": {
+        "altitudeFeet": null,
+        "groundSpeedKnots": 10.2,
+        "headingDegrees": 239.1,
+        "verticalRateFeetPerMinute": null,
+        "squawk": null
+      },
+      "trackPoints": [
+        {
+          "lat": 52.45801,
+          "lng": 9.41595,
+          "observedAt": "2026-09-14T06:28:55.531Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "3f59f3",
+      "hex": "3f59f3",
+      "callsign": "GAF820",
+      "registration": "15+11",
+      "type": "A21N",
+      "description": null,
+      "registeredOwner": "Luftwaffe",
+      "registeredOwnerConfidence": "reported",
+      "country": "Germany",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/3F59F3"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 47.29829,
+      "lng": 19.58224,
+      "observedAt": "2026-09-14T06:28:53.819Z",
+      "ageSeconds": 6.9,
+      "telemetry": {
+        "altitudeFeet": 3250,
+        "groundSpeedKnots": 221.2,
+        "headingDegrees": 221,
+        "verticalRateFeetPerMinute": -896,
+        "squawk": "1000"
+      },
+      "trackPoints": [
+        {
+          "lat": 47.29829,
+          "lng": 19.58224,
+          "observedAt": "2026-09-14T06:28:53.819Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "3f7b3c",
+      "hex": "3f7b3c",
+      "callsign": "GAF635",
+      "registration": "14+04",
+      "type": "GL5T",
+      "description": null,
+      "registeredOwner": "German Air Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "Germany",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/3F7B3C"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 52.06082,
+      "lng": 9.74503,
+      "observedAt": "2026-09-14T06:29:00.449Z",
+      "ageSeconds": 0.3,
+      "telemetry": {
+        "altitudeFeet": 35000,
+        "groundSpeedKnots": 444.6,
+        "headingDegrees": 47.7,
+        "verticalRateFeetPerMinute": 0,
+        "squawk": "5023"
+      },
+      "trackPoints": [
+        {
+          "lat": 52.06082,
+          "lng": 9.74503,
+          "observedAt": "2026-09-14T06:29:00.449Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "3fa933",
+      "hex": "3fa933",
+      "callsign": "HELI71A",
+      "registration": "82+51",
+      "type": "EC35",
+      "description": null,
+      "registeredOwner": "German Army",
+      "registeredOwnerConfidence": "reported",
+      "country": "Germany",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/3FA933"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 52.21971,
+      "lng": 8.47843,
+      "observedAt": "2026-09-14T06:28:56.388Z",
+      "ageSeconds": 4.4,
+      "telemetry": {
+        "altitudeFeet": 4675,
+        "groundSpeedKnots": 62,
+        "headingDegrees": 263,
+        "verticalRateFeetPerMinute": 0,
+        "squawk": "1352"
+      },
+      "trackPoints": [
+        {
+          "lat": 52.21971,
+          "lng": 8.47843,
+          "observedAt": "2026-09-14T06:28:56.388Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "43c39d",
+      "hex": "43c39d",
+      "callsign": "RRR7274",
+      "registration": "ZZ666",
+      "type": "R135",
+      "description": null,
+      "registeredOwner": "Royal Air Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "United Kingdom",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/43C39D"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 38.44712,
+      "lng": 23.72363,
+      "observedAt": "2026-09-14T06:29:00.571Z",
+      "ageSeconds": 0.2,
+      "telemetry": {
+        "altitudeFeet": 32000,
+        "groundSpeedKnots": 454.2,
+        "headingDegrees": 353.2,
+        "verticalRateFeetPerMinute": 0,
+        "squawk": "1437"
+      },
+      "trackPoints": [
+        {
+          "lat": 38.44712,
+          "lng": 23.72363,
+          "observedAt": "2026-09-14T06:29:00.571Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "43c973",
+      "hex": "43c973",
+      "callsign": "RFR7331",
+      "registration": "PR011",
+      "type": "Q9",
       "description": null,
       "registeredOwner": null,
       "registeredOwnerConfidence": "unknown",
@@ -188,22 +719,22 @@
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": 35.35254,
-      "lng": 129.14738,
-      "observedAt": "2026-09-14T01:15:18.181Z",
-      "ageSeconds": 5.8,
+      "lat": 34.27655,
+      "lng": 33.30957,
+      "observedAt": "2026-09-14T06:28:33.412Z",
+      "ageSeconds": 27.3,
       "telemetry": {
-        "altitudeFeet": 2900,
-        "groundSpeedKnots": 146.2,
-        "headingDegrees": 243.6,
-        "verticalRateFeetPerMinute": -128,
-        "squawk": "1221"
+        "altitudeFeet": 18900,
+        "groundSpeedKnots": 144,
+        "headingDegrees": 180,
+        "verticalRateFeetPerMinute": null,
+        "squawk": "4631"
       },
       "trackPoints": [
         {
-          "lat": 35.35254,
-          "lng": 129.14738,
-          "observedAt": "2026-09-14T01:15:18.181Z"
+          "lat": 34.27655,
+          "lng": 33.30957,
+          "observedAt": "2026-09-14T06:28:33.412Z"
         }
       ],
       "source": {
@@ -212,39 +743,121 @@
       }
     },
     {
-      "id": "7586fa",
-      "hex": "7586fa",
-      "callsign": "R204",
-      "registration": "204",
+      "id": "46788b",
+      "hex": "46788b",
+      "callsign": "FNF446",
+      "registration": "LJ-3",
+      "type": "LJ35",
+      "description": null,
+      "registeredOwner": "Finnish Air Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "Finland",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/46788B"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 65.28677,
+      "lng": 18.1731,
+      "observedAt": "2026-09-14T06:29:00.643Z",
+      "ageSeconds": 0.1,
+      "telemetry": {
+        "altitudeFeet": 33975,
+        "groundSpeedKnots": 421.4,
+        "headingDegrees": 246.4,
+        "verticalRateFeetPerMinute": 0,
+        "squawk": "5001"
+      },
+      "trackPoints": [
+        {
+          "lat": 65.28677,
+          "lng": 18.1731,
+          "observedAt": "2026-09-14T06:29:00.643Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "467892",
+      "hex": "467892",
+      "callsign": "T23",
+      "registration": "PI-03",
+      "type": "PC12",
+      "description": null,
+      "registeredOwner": "Finnish Air Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "Finland",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/467892"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 64.09081,
+      "lng": 25.11411,
+      "observedAt": "2026-09-14T06:29:00.564Z",
+      "ageSeconds": 0.2,
+      "telemetry": {
+        "altitudeFeet": 26000,
+        "groundSpeedKnots": 256,
+        "headingDegrees": 1.1,
+        "verticalRateFeetPerMinute": 0,
+        "squawk": "5351"
+      },
+      "trackPoints": [
+        {
+          "lat": 64.09081,
+          "lng": 25.11411,
+          "observedAt": "2026-09-14T06:29:00.564Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "467896",
+      "hex": "467896",
+      "callsign": "FNF401",
+      "registration": "CC-3",
       "type": "C295",
       "description": null,
-      "registeredOwner": "Philippine Air Force",
+      "registeredOwner": "Finnish Air Force",
       "registeredOwnerConfidence": "reported",
-      "country": "Philippines",
+      "country": "Finland",
       "countryConfidence": "reported",
       "countrySource": {
         "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/7586FA"
+        "url": "https://api.adsbdb.com/v0/aircraft/467896"
       },
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": 10.10649,
-      "lng": 123.80815,
-      "observedAt": "2026-09-14T01:15:20.574Z",
-      "ageSeconds": 3.4,
+      "lat": 59.8018,
+      "lng": 16.98458,
+      "observedAt": "2026-09-14T06:29:00.563Z",
+      "ageSeconds": 0.2,
       "telemetry": {
-        "altitudeFeet": 4375,
-        "groundSpeedKnots": 163.1,
-        "headingDegrees": 15.7,
-        "verticalRateFeetPerMinute": -1152,
-        "squawk": "1625"
+        "altitudeFeet": 20000,
+        "groundSpeedKnots": 239.9,
+        "headingDegrees": 236.9,
+        "verticalRateFeetPerMinute": -32,
+        "squawk": "0464"
       },
       "trackPoints": [
         {
-          "lat": 10.10649,
-          "lng": 123.80815,
-          "observedAt": "2026-09-14T01:15:20.574Z"
+          "lat": 59.8018,
+          "lng": 16.98458,
+          "observedAt": "2026-09-14T06:29:00.563Z"
         }
       ],
       "source": {
@@ -253,39 +866,399 @@
       }
     },
     {
-      "id": "76e724",
-      "hex": "76e724",
-      "callsign": "STRM11",
-      "registration": "9104",
-      "type": "PC21",
+      "id": "498447",
+      "hex": "498447",
+      "callsign": "CEF135",
+      "registration": "2601",
+      "type": "L410",
       "description": null,
-      "registeredOwner": "Republic of Singapore Air Force",
+      "registeredOwner": "Czech Air Force",
       "registeredOwnerConfidence": "reported",
-      "country": "Singapore",
+      "country": "Czech Republic",
       "countryConfidence": "reported",
       "countrySource": {
         "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/76E724"
+        "url": "https://api.adsbdb.com/v0/aircraft/498447"
       },
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": -31.34239,
-      "lng": 116.02613,
-      "observedAt": "2026-09-14T01:15:23.205Z",
-      "ageSeconds": 0.8,
+      "lat": 50.41406,
+      "lng": 10.48298,
+      "observedAt": "2026-09-14T06:29:00.700Z",
+      "ageSeconds": 0.1,
       "telemetry": {
-        "altitudeFeet": 12675,
-        "groundSpeedKnots": 240.7,
-        "headingDegrees": 10.1,
-        "verticalRateFeetPerMinute": null,
-        "squawk": "2042"
+        "altitudeFeet": 9975,
+        "groundSpeedKnots": 166.1,
+        "headingDegrees": 281.1,
+        "verticalRateFeetPerMinute": 0,
+        "squawk": "4151"
       },
       "trackPoints": [
         {
-          "lat": -31.34239,
-          "lng": 116.02613,
-          "observedAt": "2026-09-14T01:15:23.205Z"
+          "lat": 50.41406,
+          "lng": 10.48298,
+          "observedAt": "2026-09-14T06:29:00.700Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "4b82e1",
+      "hex": "4b82e1",
+      "callsign": "TURNA64",
+      "registration": "TCB754",
+      "type": "AT76",
+      "description": null,
+      "registeredOwner": null,
+      "registeredOwnerConfidence": "unknown",
+      "country": null,
+      "countryConfidence": "unknown",
+      "countrySource": null,
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 34.06215,
+      "lng": 32.31443,
+      "observedAt": "2026-09-14T06:28:48.149Z",
+      "ageSeconds": 12.6,
+      "telemetry": {
+        "altitudeFeet": 15500,
+        "groundSpeedKnots": 197.6,
+        "headingDegrees": 129.3,
+        "verticalRateFeetPerMinute": 0,
+        "squawk": "2200"
+      },
+      "trackPoints": [
+        {
+          "lat": 34.06215,
+          "lng": 32.31443,
+          "observedAt": "2026-09-14T06:28:48.149Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "4b8c4b",
+      "hex": "4b8c4b",
+      "callsign": "TRK25",
+      "registration": "TC-CBK",
+      "type": "GLF5",
+      "description": null,
+      "registeredOwner": "Turkish Airlines General Aviation",
+      "registeredOwnerConfidence": "reported",
+      "country": "Turkey",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/4B8C4B"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 47.50428,
+      "lng": 12.5247,
+      "observedAt": "2026-09-14T06:29:00.513Z",
+      "ageSeconds": 0.2,
+      "telemetry": {
+        "altitudeFeet": 41125,
+        "groundSpeedKnots": 460.4,
+        "headingDegrees": 280.3,
+        "verticalRateFeetPerMinute": -1984,
+        "squawk": "1000"
+      },
+      "trackPoints": [
+        {
+          "lat": 47.50428,
+          "lng": 12.5247,
+          "observedAt": "2026-09-14T06:29:00.513Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "503fdc",
+      "hex": "503fdc",
+      "callsign": "LYF218",
+      "registration": "43 BLUE",
+      "type": "AS65",
+      "description": null,
+      "registeredOwner": "Lithuanian Air Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "Lithuania",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/503FDC"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 51.25047,
+      "lng": 6.04219,
+      "observedAt": "2026-09-14T06:28:56.951Z",
+      "ageSeconds": 3.8,
+      "telemetry": {
+        "altitudeFeet": 4750,
+        "groundSpeedKnots": 80,
+        "headingDegrees": 59,
+        "verticalRateFeetPerMinute": 0,
+        "squawk": "7142"
+      },
+      "trackPoints": [
+        {
+          "lat": 51.25047,
+          "lng": 6.04219,
+          "observedAt": "2026-09-14T06:28:56.951Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "505fa1",
+      "hex": "505fa1",
+      "callsign": "SQF911",
+      "registration": "9633",
+      "type": "GL5T",
+      "description": null,
+      "registeredOwner": null,
+      "registeredOwnerConfidence": "unknown",
+      "country": null,
+      "countryConfidence": "unknown",
+      "countrySource": null,
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 48.17603,
+      "lng": 17.35479,
+      "observedAt": "2026-09-14T06:29:00.450Z",
+      "ageSeconds": 0.3,
+      "telemetry": {
+        "altitudeFeet": 6650,
+        "groundSpeedKnots": 288,
+        "headingDegrees": 153.6,
+        "verticalRateFeetPerMinute": 3936,
+        "squawk": "1000"
+      },
+      "trackPoints": [
+        {
+          "lat": 48.17603,
+          "lng": 17.35479,
+          "observedAt": "2026-09-14T06:29:00.450Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "506f24",
+      "hex": "506f24",
+      "callsign": "LSV101",
+      "registration": "L1-01",
+      "type": "F2TH",
+      "description": null,
+      "registeredOwner": "Slovenian Air Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "Slovenia",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/506F24"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 47.7889,
+      "lng": 13.25606,
+      "observedAt": "2026-09-14T06:29:00.751Z",
+      "ageSeconds": 0,
+      "telemetry": {
+        "altitudeFeet": 39925,
+        "groundSpeedKnots": 393.5,
+        "headingDegrees": 340.1,
+        "verticalRateFeetPerMinute": 1536,
+        "squawk": "1000"
+      },
+      "trackPoints": [
+        {
+          "lat": 47.7889,
+          "lng": 13.25606,
+          "observedAt": "2026-09-14T06:29:00.751Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "516205",
+      "hex": "516205",
+      "callsign": "XHB326",
+      "registration": "65326",
+      "type": "B505",
+      "description": null,
+      "registeredOwner": null,
+      "registeredOwnerConfidence": "unknown",
+      "country": null,
+      "countryConfidence": "unknown",
+      "countrySource": null,
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 42.41698,
+      "lng": 19.22907,
+      "observedAt": "2026-09-14T06:29:00.468Z",
+      "ageSeconds": 0.3,
+      "telemetry": {
+        "altitudeFeet": 550,
+        "groundSpeedKnots": 85,
+        "headingDegrees": 8.8,
+        "verticalRateFeetPerMinute": 256,
+        "squawk": "0056"
+      },
+      "trackPoints": [
+        {
+          "lat": 42.41698,
+          "lng": 19.22907,
+          "observedAt": "2026-09-14T06:29:00.468Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "7061f5",
+      "hex": "7061f5",
+      "callsign": "KAF3218",
+      "registration": "KAF326",
+      "type": "C30J",
+      "description": null,
+      "registeredOwner": "Kuwait Air Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "Kuwait",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/7061F5"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 29.12036,
+      "lng": 47.99742,
+      "observedAt": "2026-09-14T06:29:00.652Z",
+      "ageSeconds": 0.1,
+      "telemetry": {
+        "altitudeFeet": 3550,
+        "groundSpeedKnots": 194.3,
+        "headingDegrees": 156.3,
+        "verticalRateFeetPerMinute": 1568,
+        "squawk": "1431"
+      },
+      "trackPoints": [
+        {
+          "lat": 29.12036,
+          "lng": 47.99742,
+          "observedAt": "2026-09-14T06:29:00.652Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "7061f6",
+      "hex": "7061f6",
+      "callsign": "MBK01",
+      "registration": "KAF327",
+      "type": "C30J",
+      "description": null,
+      "registeredOwner": "Kuwait Air Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "Kuwait",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/7061F6"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 29.08807,
+      "lng": 47.57107,
+      "observedAt": "2026-09-14T06:28:14.506Z",
+      "ageSeconds": 46.2,
+      "telemetry": {
+        "altitudeFeet": 8125,
+        "groundSpeedKnots": 182,
+        "headingDegrees": 152.9,
+        "verticalRateFeetPerMinute": null,
+        "squawk": null
+      },
+      "trackPoints": [
+        {
+          "lat": 29.08807,
+          "lng": 47.57107,
+          "observedAt": "2026-09-14T06:28:14.506Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "70c08d",
+      "hex": "70c08d",
+      "callsign": "MJN238",
+      "registration": "505",
+      "type": "C30J",
+      "description": null,
+      "registeredOwner": "Royal Air Force of Oman",
+      "registeredOwnerConfidence": "reported",
+      "country": "Oman",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/70C08D"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 25.25139,
+      "lng": 56.86239,
+      "observedAt": "2026-09-14T06:28:45.651Z",
+      "ageSeconds": 15.1,
+      "telemetry": {
+        "altitudeFeet": 15000,
+        "groundSpeedKnots": 312.2,
+        "headingDegrees": 153.8,
+        "verticalRateFeetPerMinute": 0,
+        "squawk": "4636"
+      },
+      "trackPoints": [
+        {
+          "lat": 25.25139,
+          "lng": 56.86239,
+          "observedAt": "2026-09-14T06:28:45.651Z"
         }
       ],
       "source": {
@@ -296,7 +1269,7 @@
     {
       "id": "76e725",
       "hex": "76e725",
-      "callsign": "EGLE843",
+      "callsign": "EGLE841",
       "registration": "9105",
       "type": "PC21",
       "description": null,
@@ -311,63 +1284,27 @@
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": -31.66772,
-      "lng": 116.01321,
-      "observedAt": "2026-09-14T01:15:22.875Z",
-      "ageSeconds": 1.1,
+      "lat": -31.65971,
+      "lng": 115.99695,
+      "observedAt": "2026-09-14T06:29:00.093Z",
+      "ageSeconds": 0.7,
       "telemetry": {
-        "altitudeFeet": -200,
-        "groundSpeedKnots": 118.7,
-        "headingDegrees": 173.7,
+        "altitudeFeet": 2925,
+        "groundSpeedKnots": 149.5,
+        "headingDegrees": 48.5,
         "verticalRateFeetPerMinute": null,
-        "squawk": "7326"
+        "squawk": "7333"
       },
       "trackPoints": [
         {
           "lat": -31.66772,
           "lng": 116.01321,
           "observedAt": "2026-09-14T01:15:22.875Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "76e727",
-      "hex": "76e727",
-      "callsign": "EGLE828",
-      "registration": "9107",
-      "type": "PC21",
-      "description": null,
-      "registeredOwner": "Republic of Singapore Air Force",
-      "registeredOwnerConfidence": "reported",
-      "country": "Singapore",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/76E727"
-      },
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": -30.76479,
-      "lng": 115.71442,
-      "observedAt": "2026-09-14T01:15:23.219Z",
-      "ageSeconds": 0.8,
-      "telemetry": {
-        "altitudeFeet": 9525,
-        "groundSpeedKnots": 110.3,
-        "headingDegrees": 337.6,
-        "verticalRateFeetPerMinute": null,
-        "squawk": "2005"
-      },
-      "trackPoints": [
+        },
         {
-          "lat": -30.76479,
-          "lng": 115.71442,
-          "observedAt": "2026-09-14T01:15:23.219Z"
+          "lat": -31.65971,
+          "lng": 115.99695,
+          "observedAt": "2026-09-14T06:29:00.093Z"
         }
       ],
       "source": {
@@ -378,7 +1315,7 @@
     {
       "id": "76e728",
       "hex": "76e728",
-      "callsign": "EGLE838",
+      "callsign": "MONS11",
       "registration": "9108",
       "type": "PC21",
       "description": null,
@@ -393,22 +1330,27 @@
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": -30.84155,
-      "lng": 115.92919,
-      "observedAt": "2026-09-14T01:15:23.644Z",
-      "ageSeconds": 0.3,
+      "lat": -31.66041,
+      "lng": 116.01222,
+      "observedAt": "2026-09-14T06:28:59.902Z",
+      "ageSeconds": 0.9,
       "telemetry": {
-        "altitudeFeet": 12925,
-        "groundSpeedKnots": 203.4,
-        "headingDegrees": 3.4,
+        "altitudeFeet": 50,
+        "groundSpeedKnots": 108.7,
+        "headingDegrees": 173.7,
         "verticalRateFeetPerMinute": null,
-        "squawk": "7313"
+        "squawk": "2047"
       },
       "trackPoints": [
         {
           "lat": -30.84155,
           "lng": 115.92919,
           "observedAt": "2026-09-14T01:15:23.644Z"
+        },
+        {
+          "lat": -31.66041,
+          "lng": 116.01222,
+          "observedAt": "2026-09-14T06:28:59.902Z"
         }
       ],
       "source": {
@@ -417,10 +1359,10 @@
       }
     },
     {
-      "id": "76e731",
-      "hex": "76e731",
-      "callsign": "EGLE848",
-      "registration": "9117",
+      "id": "76e72a",
+      "hex": "76e72a",
+      "callsign": "EGLE832",
+      "registration": "9110",
       "type": "PC21",
       "description": null,
       "registeredOwner": "Republic of Singapore Air Force",
@@ -429,27 +1371,188 @@
       "countryConfidence": "reported",
       "countrySource": {
         "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/76E731"
+        "url": "https://api.adsbdb.com/v0/aircraft/76E72A"
       },
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": -31.48528,
-      "lng": 115.85764,
-      "observedAt": "2026-09-14T01:15:23.793Z",
-      "ageSeconds": 0.2,
+      "lat": -30.78728,
+      "lng": 115.89153,
+      "observedAt": "2026-09-14T06:28:59.925Z",
+      "ageSeconds": 0.8,
       "telemetry": {
-        "altitudeFeet": 13650,
-        "groundSpeedKnots": 280.1,
-        "headingDegrees": 329.8,
+        "altitudeFeet": 10800,
+        "groundSpeedKnots": 182.1,
+        "headingDegrees": 2.2,
         "verticalRateFeetPerMinute": null,
-        "squawk": "7316"
+        "squawk": "7334"
       },
       "trackPoints": [
         {
-          "lat": -31.48528,
-          "lng": 115.85764,
-          "observedAt": "2026-09-14T01:15:23.793Z"
+          "lat": -30.78728,
+          "lng": 115.89153,
+          "observedAt": "2026-09-14T06:28:59.925Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "76e72c",
+      "hex": "76e72c",
+      "callsign": "EGLE877",
+      "registration": "9112",
+      "type": "PC21",
+      "description": null,
+      "registeredOwner": "Republic of Singapore Air Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "Singapore",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/76E72C"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": -30.7498,
+      "lng": 116.15411,
+      "observedAt": "2026-09-14T06:29:00.234Z",
+      "ageSeconds": 0.5,
+      "telemetry": {
+        "altitudeFeet": 9250,
+        "groundSpeedKnots": 275.2,
+        "headingDegrees": 40.6,
+        "verticalRateFeetPerMinute": null,
+        "squawk": "7321"
+      },
+      "trackPoints": [
+        {
+          "lat": -30.7498,
+          "lng": 116.15411,
+          "observedAt": "2026-09-14T06:29:00.234Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "76e72d",
+      "hex": "76e72d",
+      "callsign": "MONS12",
+      "registration": "9113",
+      "type": "PC21",
+      "description": null,
+      "registeredOwner": "Republic of Singapore Air Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "Singapore",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/76E72D"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": -31.64025,
+      "lng": 116.00447,
+      "observedAt": "2026-09-14T06:29:00.400Z",
+      "ageSeconds": 0.4,
+      "telemetry": {
+        "altitudeFeet": 275,
+        "groundSpeedKnots": 112.2,
+        "headingDegrees": 129.9,
+        "verticalRateFeetPerMinute": null,
+        "squawk": "5000"
+      },
+      "trackPoints": [
+        {
+          "lat": -31.64025,
+          "lng": 116.00447,
+          "observedAt": "2026-09-14T06:29:00.400Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "76e72f",
+      "hex": "76e72f",
+      "callsign": "EGLE848",
+      "registration": "9115",
+      "type": "PC21",
+      "description": null,
+      "registeredOwner": "Republic of Singapore Air Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "Singapore",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/76E72F"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": -31.50064,
+      "lng": 115.92136,
+      "observedAt": "2026-09-14T06:29:00.231Z",
+      "ageSeconds": 0.5,
+      "telemetry": {
+        "altitudeFeet": 675,
+        "groundSpeedKnots": 196.7,
+        "headingDegrees": 144.9,
+        "verticalRateFeetPerMinute": null,
+        "squawk": "2062"
+      },
+      "trackPoints": [
+        {
+          "lat": -31.50064,
+          "lng": 115.92136,
+          "observedAt": "2026-09-14T06:29:00.231Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "7a385a",
+      "hex": "7a385a",
+      "callsign": "OMA4090",
+      "registration": "B-4090",
+      "type": "A319",
+      "description": null,
+      "registeredOwner": null,
+      "registeredOwnerConfidence": "unknown",
+      "country": null,
+      "countryConfidence": "unknown",
+      "countrySource": null,
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 39.07427,
+      "lng": 115.80139,
+      "observedAt": "2026-09-14T06:28:56.346Z",
+      "ageSeconds": 4.4,
+      "telemetry": {
+        "altitudeFeet": 20450,
+        "groundSpeedKnots": 389.5,
+        "headingDegrees": 240.8,
+        "verticalRateFeetPerMinute": 2240,
+        "squawk": "3306"
+      },
+      "trackPoints": [
+        {
+          "lat": 39.07427,
+          "lng": 115.80139,
+          "observedAt": "2026-09-14T06:28:56.346Z"
         }
       ],
       "source": {
@@ -460,7 +1563,7 @@
     {
       "id": "7cf83b",
       "hex": "7cf83b",
-      "callsign": "ASY743",
+      "callsign": "PHNX",
       "registration": "A97-468",
       "type": "C30J",
       "description": null,
@@ -475,68 +1578,27 @@
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": -31.28137,
-      "lng": 151.09346,
-      "observedAt": "2026-09-14T01:15:23.555Z",
-      "ageSeconds": 0.4,
+      "lat": -31.84992,
+      "lng": 115.91447,
+      "observedAt": "2026-09-14T06:28:58.779Z",
+      "ageSeconds": 2,
       "telemetry": {
-        "altitudeFeet": 24000,
-        "groundSpeedKnots": 350.5,
-        "headingDegrees": 14,
-        "verticalRateFeetPerMinute": 0,
-        "squawk": "1364"
+        "altitudeFeet": 8850,
+        "groundSpeedKnots": null,
+        "headingDegrees": null,
+        "verticalRateFeetPerMinute": -71,
+        "squawk": "2016"
       },
       "trackPoints": [
         {
           "lat": -31.28137,
           "lng": 151.09346,
           "observedAt": "2026-09-14T01:15:23.555Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "7cf8f1",
-      "hex": "7cf8f1",
-      "callsign": "MTCH03",
-      "registration": "A30-002",
-      "type": "E737",
-      "description": null,
-      "registeredOwner": "Royal Australian Air Force",
-      "registeredOwnerConfidence": "reported",
-      "country": "Australia",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/7CF8F1"
-      },
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": -31.97529,
-      "lng": 155.6048,
-      "observedAt": "2026-09-14T01:15:23.992Z",
-      "ageSeconds": 0,
-      "telemetry": {
-        "altitudeFeet": 30025,
-        "groundSpeedKnots": 325.6,
-        "headingDegrees": 227.5,
-        "verticalRateFeetPerMinute": 64,
-        "squawk": "4503"
-      },
-      "trackPoints": [
-        {
-          "lat": -33.40603,
-          "lng": 154.6495,
-          "observedAt": "2026-09-13T23:14:31.562Z"
         },
         {
-          "lat": -31.97529,
-          "lng": 155.6048,
-          "observedAt": "2026-09-14T01:15:23.992Z"
+          "lat": -31.84992,
+          "lng": 115.91447,
+          "observedAt": "2026-09-14T06:28:58.779Z"
         }
       ],
       "source": {
@@ -545,80 +1607,188 @@
       }
     },
     {
-      "id": "7cf8f5",
-      "hex": "7cf8f5",
-      "callsign": "WGTL01",
-      "registration": "A30-006",
-      "type": "E737",
+      "id": "7cf842",
+      "hex": "7cf842",
+      "callsign": "PHNX",
+      "registration": "A27-008",
+      "type": "HAWK",
       "description": null,
-      "registeredOwner": "Royal Australian Air Force",
-      "registeredOwnerConfidence": "reported",
-      "country": "Australia",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/7CF8F5"
+      "registeredOwner": null,
+      "registeredOwnerConfidence": "unknown",
+      "country": null,
+      "countryConfidence": "unknown",
+      "countrySource": null,
+      "classification": "trainer",
+      "classificationMethod": "model-designation-rule",
+      "classificationConfidence": "medium",
+      "lat": -31.45931,
+      "lng": 115.07263,
+      "observedAt": "2026-09-14T06:28:54.774Z",
+      "ageSeconds": 6,
+      "telemetry": {
+        "altitudeFeet": 13750,
+        "groundSpeedKnots": null,
+        "headingDegrees": null,
+        "verticalRateFeetPerMinute": 12569,
+        "squawk": "7336"
       },
+      "trackPoints": [
+        {
+          "lat": -31.45931,
+          "lng": 115.07263,
+          "observedAt": "2026-09-14T06:28:54.774Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "7cf851",
+      "hex": "7cf851",
+      "callsign": "PHTM2",
+      "registration": "A27-023",
+      "type": "HAWK",
+      "description": null,
+      "registeredOwner": null,
+      "registeredOwnerConfidence": "unknown",
+      "country": null,
+      "countryConfidence": "unknown",
+      "countrySource": null,
+      "classification": "trainer",
+      "classificationMethod": "model-designation-rule",
+      "classificationConfidence": "medium",
+      "lat": -31.75947,
+      "lng": 115.83672,
+      "observedAt": "2026-09-14T06:28:52.740Z",
+      "ageSeconds": 8,
+      "telemetry": {
+        "altitudeFeet": 7775,
+        "groundSpeedKnots": null,
+        "headingDegrees": null,
+        "verticalRateFeetPerMinute": 1049,
+        "squawk": "2060"
+      },
+      "trackPoints": [
+        {
+          "lat": -31.75947,
+          "lng": 115.83672,
+          "observedAt": "2026-09-14T06:28:52.740Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "7cf856",
+      "hex": "7cf856",
+      "callsign": "PHNX04",
+      "registration": "A27-029",
+      "type": "HAWK",
+      "description": null,
+      "registeredOwner": null,
+      "registeredOwnerConfidence": "unknown",
+      "country": null,
+      "countryConfidence": "unknown",
+      "countrySource": null,
+      "classification": "trainer",
+      "classificationMethod": "model-designation-rule",
+      "classificationConfidence": "medium",
+      "lat": -31.46189,
+      "lng": 115.96761,
+      "observedAt": "2026-09-14T06:29:00.030Z",
+      "ageSeconds": 0.7,
+      "telemetry": {
+        "altitudeFeet": 11775,
+        "groundSpeedKnots": 399,
+        "headingDegrees": 26,
+        "verticalRateFeetPerMinute": 0,
+        "squawk": "7325"
+      },
+      "trackPoints": [
+        {
+          "lat": -31.46189,
+          "lng": 115.96761,
+          "observedAt": "2026-09-14T06:29:00.030Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "7cf858",
+      "hex": "7cf858",
+      "callsign": "RAPT",
+      "registration": "A27-031",
+      "type": "HAWK",
+      "description": null,
+      "registeredOwner": null,
+      "registeredOwnerConfidence": "unknown",
+      "country": null,
+      "countryConfidence": "unknown",
+      "countrySource": null,
+      "classification": "trainer",
+      "classificationMethod": "model-designation-rule",
+      "classificationConfidence": "medium",
+      "lat": -31.76205,
+      "lng": 115.81781,
+      "observedAt": "2026-09-14T06:28:54.173Z",
+      "ageSeconds": 6.6,
+      "telemetry": {
+        "altitudeFeet": 3475,
+        "groundSpeedKnots": null,
+        "headingDegrees": null,
+        "verticalRateFeetPerMinute": -4007,
+        "squawk": "7343"
+      },
+      "trackPoints": [
+        {
+          "lat": -31.76205,
+          "lng": 115.81781,
+          "observedAt": "2026-09-14T06:28:54.173Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "7cf878",
+      "hex": "7cf878",
+      "callsign": "PSSM11",
+      "registration": "A40-009",
+      "type": "NH90",
+      "description": null,
+      "registeredOwner": null,
+      "registeredOwnerConfidence": "unknown",
+      "country": null,
+      "countryConfidence": "unknown",
+      "countrySource": null,
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": -23.61795,
-      "lng": 150.6563,
-      "observedAt": "2026-09-14T01:15:23.419Z",
-      "ageSeconds": 0.6,
+      "lat": -19.49775,
+      "lng": 147.10339,
+      "observedAt": "2026-09-14T06:29:00.554Z",
+      "ageSeconds": 0.2,
       "telemetry": {
-        "altitudeFeet": 10525,
-        "groundSpeedKnots": 349,
-        "headingDegrees": 323.6,
-        "verticalRateFeetPerMinute": -2688,
-        "squawk": "4522"
+        "altitudeFeet": 500,
+        "groundSpeedKnots": 111.7,
+        "headingDegrees": 315,
+        "verticalRateFeetPerMinute": 0,
+        "squawk": "4602"
       },
       "trackPoints": [
         {
-          "lat": -23.61795,
-          "lng": 150.6563,
-          "observedAt": "2026-09-14T01:15:23.419Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "7cf9cd",
-      "hex": "7cf9cd",
-      "callsign": "MRNR07",
-      "registration": "A47-003",
-      "type": "P8",
-      "description": null,
-      "registeredOwner": "Royal Australian Air Force",
-      "registeredOwnerConfidence": "reported",
-      "country": "Australia",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/7CF9CD"
-      },
-      "classification": "maritime-patrol",
-      "classificationMethod": "model-designation-rule",
-      "classificationConfidence": "medium",
-      "lat": -35.07125,
-      "lng": 139.31437,
-      "observedAt": "2026-09-14T01:15:23.658Z",
-      "ageSeconds": 0.3,
-      "telemetry": {
-        "altitudeFeet": 24625,
-        "groundSpeedKnots": 433.7,
-        "headingDegrees": 137,
-        "verticalRateFeetPerMinute": 1920,
-        "squawk": "2035"
-      },
-      "trackPoints": [
-        {
-          "lat": -35.07125,
-          "lng": 139.31437,
-          "observedAt": "2026-09-14T01:15:23.658Z"
+          "lat": -19.49775,
+          "lng": 147.10339,
+          "observedAt": "2026-09-14T06:29:00.554Z"
         }
       ],
       "source": {
@@ -629,7 +1799,7 @@
     {
       "id": "7cf9d2",
       "hex": "7cf9d2",
-      "callsign": "MRNR05",
+      "callsign": "MRNR13",
       "registration": "A47-008",
       "type": "P8",
       "description": null,
@@ -644,63 +1814,27 @@
       "classification": "maritime-patrol",
       "classificationMethod": "model-designation-rule",
       "classificationConfidence": "medium",
-      "lat": -37.81536,
-      "lng": 142.70828,
-      "observedAt": "2026-09-14T01:15:23.671Z",
-      "ageSeconds": 0.3,
+      "lat": -34.71099,
+      "lng": 138.631,
+      "observedAt": "2026-09-14T06:28:58.855Z",
+      "ageSeconds": 1.9,
       "telemetry": {
-        "altitudeFeet": 28450,
-        "groundSpeedKnots": 455.2,
-        "headingDegrees": 91.9,
-        "verticalRateFeetPerMinute": -2112,
-        "squawk": "2015"
+        "altitudeFeet": null,
+        "groundSpeedKnots": 0,
+        "headingDegrees": null,
+        "verticalRateFeetPerMinute": null,
+        "squawk": "5000"
       },
       "trackPoints": [
         {
           "lat": -37.81536,
           "lng": 142.70828,
           "observedAt": "2026-09-14T01:15:23.671Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "7cf9e1",
-      "hex": "7cf9e1",
-      "callsign": "VIPR23",
-      "registration": "A54-010",
-      "type": "PC21",
-      "description": null,
-      "registeredOwner": "Royal Australian Air Force",
-      "registeredOwnerConfidence": "reported",
-      "country": "Australia",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/7CF9E1"
-      },
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": -31.25918,
-      "lng": 116.04331,
-      "observedAt": "2026-09-14T01:15:23.572Z",
-      "ageSeconds": 0.4,
-      "telemetry": {
-        "altitudeFeet": 6450,
-        "groundSpeedKnots": 246.5,
-        "headingDegrees": 241.7,
-        "verticalRateFeetPerMinute": -2112,
-        "squawk": "2045"
-      },
-      "trackPoints": [
+        },
         {
-          "lat": -31.25918,
-          "lng": 116.04331,
-          "observedAt": "2026-09-14T01:15:23.572Z"
+          "lat": -34.71099,
+          "lng": 138.631,
+          "observedAt": "2026-09-14T06:28:58.855Z"
         }
       ],
       "source": {
@@ -711,7 +1845,7 @@
     {
       "id": "7cf9e2",
       "hex": "7cf9e2",
-      "callsign": "SIRA623",
+      "callsign": "SLNG2",
       "registration": "A54-011",
       "type": "PC21",
       "description": null,
@@ -726,22 +1860,27 @@
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": -31.45521,
-      "lng": 115.90027,
-      "observedAt": "2026-09-14T01:15:23.992Z",
-      "ageSeconds": 0,
+      "lat": -31.28741,
+      "lng": 115.56395,
+      "observedAt": "2026-09-14T06:29:00.621Z",
+      "ageSeconds": 0.1,
       "telemetry": {
-        "altitudeFeet": 950,
-        "groundSpeedKnots": 161,
-        "headingDegrees": 73,
-        "verticalRateFeetPerMinute": -64,
-        "squawk": "2023"
+        "altitudeFeet": 6075,
+        "groundSpeedKnots": 223.9,
+        "headingDegrees": 131.4,
+        "verticalRateFeetPerMinute": 768,
+        "squawk": "7337"
       },
       "trackPoints": [
         {
           "lat": -31.45521,
           "lng": 115.90027,
           "observedAt": "2026-09-14T01:15:23.992Z"
+        },
+        {
+          "lat": -31.28741,
+          "lng": 115.56395,
+          "observedAt": "2026-09-14T06:29:00.621Z"
         }
       ],
       "source": {
@@ -752,7 +1891,7 @@
     {
       "id": "7cf9e3",
       "hex": "7cf9e3",
-      "callsign": "DUGT602",
+      "callsign": "TANG25",
       "registration": "A54-012",
       "type": "PC21",
       "description": null,
@@ -767,63 +1906,27 @@
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": -31.2345,
-      "lng": 115.53761,
-      "observedAt": "2026-09-14T01:15:23.644Z",
-      "ageSeconds": 0.3,
+      "lat": -31.41019,
+      "lng": 116.04749,
+      "observedAt": "2026-09-14T06:29:00.557Z",
+      "ageSeconds": 0.2,
       "telemetry": {
-        "altitudeFeet": 8025,
-        "groundSpeedKnots": 129.5,
-        "headingDegrees": 316.6,
-        "verticalRateFeetPerMinute": 6720,
-        "squawk": "2037"
+        "altitudeFeet": 4750,
+        "groundSpeedKnots": 260,
+        "headingDegrees": 180.2,
+        "verticalRateFeetPerMinute": -2624,
+        "squawk": "2057"
       },
       "trackPoints": [
         {
           "lat": -31.2345,
           "lng": 115.53761,
           "observedAt": "2026-09-14T01:15:23.644Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "7cf9e5",
-      "hex": "7cf9e5",
-      "callsign": "VIPR10",
-      "registration": "A54-014",
-      "type": "PC21",
-      "description": null,
-      "registeredOwner": "Royal Australian Air Force",
-      "registeredOwnerConfidence": "reported",
-      "country": "Australia",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/7CF9E5"
-      },
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": -31.6724,
-      "lng": 116.01514,
-      "observedAt": "2026-09-14T01:15:23.629Z",
-      "ageSeconds": 0.4,
-      "telemetry": {
-        "altitudeFeet": null,
-        "groundSpeedKnots": 14.8,
-        "headingDegrees": null,
-        "verticalRateFeetPerMinute": null,
-        "squawk": "2027"
-      },
-      "trackPoints": [
+        },
         {
-          "lat": -31.6724,
-          "lng": 116.01514,
-          "observedAt": "2026-09-14T01:15:23.629Z"
+          "lat": -31.41019,
+          "lng": 116.04749,
+          "observedAt": "2026-09-14T06:29:00.557Z"
         }
       ],
       "source": {
@@ -834,7 +1937,7 @@
     {
       "id": "7cf9e6",
       "hex": "7cf9e6",
-      "callsign": "VIPR20",
+      "callsign": "SLNG",
       "registration": "A54-015",
       "type": "PC21",
       "description": null,
@@ -849,22 +1952,68 @@
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": -31.48535,
-      "lng": 115.83376,
-      "observedAt": "2026-09-14T01:15:23.711Z",
-      "ageSeconds": 0.3,
+      "lat": -31.34431,
+      "lng": 115.70257,
+      "observedAt": "2026-09-14T06:29:00.252Z",
+      "ageSeconds": 0.5,
       "telemetry": {
-        "altitudeFeet": 925,
-        "groundSpeedKnots": 141.5,
-        "headingDegrees": 265.1,
-        "verticalRateFeetPerMinute": -1152,
-        "squawk": "2013"
+        "altitudeFeet": 5850,
+        "groundSpeedKnots": 259.7,
+        "headingDegrees": 305.3,
+        "verticalRateFeetPerMinute": -2752,
+        "squawk": "2002"
       },
       "trackPoints": [
         {
           "lat": -31.48535,
           "lng": 115.83376,
           "observedAt": "2026-09-14T01:15:23.711Z"
+        },
+        {
+          "lat": -31.34431,
+          "lng": 115.70257,
+          "observedAt": "2026-09-14T06:29:00.252Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "7cf9e9",
+      "hex": "7cf9e9",
+      "callsign": "VIPR99",
+      "registration": "A54-018",
+      "type": "PC21",
+      "description": null,
+      "registeredOwner": "Royal Australian Air Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "Australia",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/7CF9E9"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": -31.6728,
+      "lng": 116.01554,
+      "observedAt": "2026-09-14T06:29:00.234Z",
+      "ageSeconds": 0.5,
+      "telemetry": {
+        "altitudeFeet": null,
+        "groundSpeedKnots": 14.8,
+        "headingDegrees": null,
+        "verticalRateFeetPerMinute": null,
+        "squawk": "7341"
+      },
+      "trackPoints": [
+        {
+          "lat": -31.6728,
+          "lng": 116.01554,
+          "observedAt": "2026-09-14T06:29:00.234Z"
         }
       ],
       "source": {
@@ -875,7 +2024,7 @@
     {
       "id": "7cf9ea",
       "hex": "7cf9ea",
-      "callsign": "SIRA664",
+      "callsign": "TANG10",
       "registration": "A54-019",
       "type": "PC21",
       "description": null,
@@ -890,22 +2039,27 @@
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": -31.48737,
-      "lng": 115.82353,
-      "observedAt": "2026-09-14T01:15:23.831Z",
-      "ageSeconds": 0.2,
+      "lat": -31.5596,
+      "lng": 115.77242,
+      "observedAt": "2026-09-14T06:29:00.343Z",
+      "ageSeconds": 0.4,
       "telemetry": {
-        "altitudeFeet": 3525,
-        "groundSpeedKnots": 164.3,
-        "headingDegrees": 248.6,
-        "verticalRateFeetPerMinute": 0,
-        "squawk": "2026"
+        "altitudeFeet": 7725,
+        "groundSpeedKnots": 264.9,
+        "headingDegrees": 231.8,
+        "verticalRateFeetPerMinute": 64,
+        "squawk": "2011"
       },
       "trackPoints": [
         {
           "lat": -31.48737,
           "lng": 115.82353,
           "observedAt": "2026-09-14T01:15:23.831Z"
+        },
+        {
+          "lat": -31.5596,
+          "lng": 115.77242,
+          "observedAt": "2026-09-14T06:29:00.343Z"
         }
       ],
       "source": {
@@ -914,10 +2068,10 @@
       }
     },
     {
-      "id": "7cf9f1",
-      "hex": "7cf9f1",
-      "callsign": "ROLR30",
-      "registration": "A54-026",
+      "id": "7cf9ec",
+      "hex": "7cf9ec",
+      "callsign": "MUST",
+      "registration": "A54-021",
       "type": "PC21",
       "description": null,
       "registeredOwner": "Royal Australian Air Force",
@@ -926,32 +2080,27 @@
       "countryConfidence": "reported",
       "countrySource": {
         "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/7CF9F1"
+        "url": "https://api.adsbdb.com/v0/aircraft/7CF9EC"
       },
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": -38.04389,
-      "lng": 147.6215,
-      "observedAt": "2026-09-14T01:15:23.783Z",
-      "ageSeconds": 0.2,
+      "lat": -38.09949,
+      "lng": 147.15287,
+      "observedAt": "2026-09-14T06:28:35.894Z",
+      "ageSeconds": 24.9,
       "telemetry": {
-        "altitudeFeet": 13375,
-        "groundSpeedKnots": 200,
-        "headingDegrees": 237.7,
-        "verticalRateFeetPerMinute": 320,
-        "squawk": "4676"
+        "altitudeFeet": 900,
+        "groundSpeedKnots": 169.3,
+        "headingDegrees": 3.4,
+        "verticalRateFeetPerMinute": -128,
+        "squawk": "4653"
       },
       "trackPoints": [
         {
-          "lat": -37.83989,
-          "lng": 147.10986,
-          "observedAt": "2026-09-13T23:14:31.740Z"
-        },
-        {
-          "lat": -38.04389,
-          "lng": 147.6215,
-          "observedAt": "2026-09-14T01:15:23.783Z"
+          "lat": -38.09949,
+          "lng": 147.15287,
+          "observedAt": "2026-09-14T06:28:35.894Z"
         }
       ],
       "source": {
@@ -960,10 +2109,10 @@
       }
     },
     {
-      "id": "7cf9f8",
-      "hex": "7cf9f8",
-      "callsign": "CHCK2",
-      "registration": "A54-033",
+      "id": "7cf9ed",
+      "hex": "7cf9ed",
+      "callsign": "ROLR39",
+      "registration": "A54-022",
       "type": "PC21",
       "description": null,
       "registeredOwner": "Royal Australian Air Force",
@@ -972,32 +2121,27 @@
       "countryConfidence": "reported",
       "countrySource": {
         "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/7CF9F8"
+        "url": "https://api.adsbdb.com/v0/aircraft/7CF9ED"
       },
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": -38.44766,
-      "lng": 146.53929,
-      "observedAt": "2026-09-14T01:14:58.799Z",
-      "ageSeconds": 25.2,
+      "lat": -38.08778,
+      "lng": 146.9422,
+      "observedAt": "2026-09-14T06:29:00.501Z",
+      "ageSeconds": 0.3,
       "telemetry": {
-        "altitudeFeet": 1900,
-        "groundSpeedKnots": 222.8,
-        "headingDegrees": 171,
-        "verticalRateFeetPerMinute": -1152,
-        "squawk": "4645"
+        "altitudeFeet": 650,
+        "groundSpeedKnots": 146.3,
+        "headingDegrees": 77.8,
+        "verticalRateFeetPerMinute": -2240,
+        "squawk": "4650"
       },
       "trackPoints": [
         {
-          "lat": -38.08557,
-          "lng": 147.16742,
-          "observedAt": "2026-09-13T23:14:21.299Z"
-        },
-        {
-          "lat": -38.44766,
-          "lng": 146.53929,
-          "observedAt": "2026-09-14T01:14:58.799Z"
+          "lat": -38.08778,
+          "lng": 146.9422,
+          "observedAt": "2026-09-14T06:29:00.501Z"
         }
       ],
       "source": {
@@ -1006,10 +2150,10 @@
       }
     },
     {
-      "id": "7cf9ff",
-      "hex": "7cf9ff",
+      "id": "7cf9ee",
+      "hex": "7cf9ee",
       "callsign": "ALDN79",
-      "registration": "A54-040",
+      "registration": "A54-023",
       "type": "PC21",
       "description": null,
       "registeredOwner": "Royal Australian Air Force",
@@ -1018,32 +2162,27 @@
       "countryConfidence": "reported",
       "countrySource": {
         "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/7CF9FF"
+        "url": "https://api.adsbdb.com/v0/aircraft/7CF9EE"
       },
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": -37.82486,
-      "lng": 146.98811,
-      "observedAt": "2026-09-14T01:15:23.594Z",
-      "ageSeconds": 0.4,
+      "lat": -38.08209,
+      "lng": 147.13382,
+      "observedAt": "2026-09-14T06:28:53.536Z",
+      "ageSeconds": 7.2,
       "telemetry": {
-        "altitudeFeet": 13425,
-        "groundSpeedKnots": 188.7,
-        "headingDegrees": 157.2,
-        "verticalRateFeetPerMinute": -192,
-        "squawk": "4667"
+        "altitudeFeet": 925,
+        "groundSpeedKnots": 155.4,
+        "headingDegrees": 277.8,
+        "verticalRateFeetPerMinute": -384,
+        "squawk": "4641"
       },
       "trackPoints": [
         {
-          "lat": -38.08186,
-          "lng": 147.13569,
-          "observedAt": "2026-09-13T23:14:28.122Z"
-        },
-        {
-          "lat": -37.82486,
-          "lng": 146.98811,
-          "observedAt": "2026-09-14T01:15:23.594Z"
+          "lat": -38.08209,
+          "lng": 147.13382,
+          "observedAt": "2026-09-14T06:28:53.536Z"
         }
       ],
       "source": {
@@ -1054,7 +2193,7 @@
     {
       "id": "7cfa00",
       "hex": "7cfa00",
-      "callsign": "GYPS",
+      "callsign": "ROLR5",
       "registration": "A54-041",
       "type": "PC21",
       "description": null,
@@ -1069,16 +2208,16 @@
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": -38.64492,
-      "lng": 146.70398,
-      "observedAt": "2026-09-14T01:15:23.499Z",
-      "ageSeconds": 0.5,
+      "lat": -38.10501,
+      "lng": 146.99683,
+      "observedAt": "2026-09-14T06:28:56.867Z",
+      "ageSeconds": 3.9,
       "telemetry": {
-        "altitudeFeet": 12375,
-        "groundSpeedKnots": 131.8,
-        "headingDegrees": 168.2,
-        "verticalRateFeetPerMinute": 6464,
-        "squawk": "4641"
+        "altitudeFeet": 1875,
+        "groundSpeedKnots": 163.9,
+        "headingDegrees": 213.3,
+        "verticalRateFeetPerMinute": 1216,
+        "squawk": "4667"
       },
       "trackPoints": [
         {
@@ -1090,6 +2229,11 @@
           "lat": -38.64492,
           "lng": 146.70398,
           "observedAt": "2026-09-14T01:15:23.499Z"
+        },
+        {
+          "lat": -38.10501,
+          "lng": 146.99683,
+          "observedAt": "2026-09-14T06:28:56.867Z"
         }
       ],
       "source": {
@@ -1100,7 +2244,7 @@
     {
       "id": "7cfa01",
       "hex": "7cfa01",
-      "callsign": "ROLR34",
+      "callsign": null,
       "registration": "A54-042",
       "type": "PC21",
       "description": null,
@@ -1115,22 +2259,27 @@
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": -38.08186,
-      "lng": 147.12376,
-      "observedAt": "2026-09-14T01:15:18.213Z",
-      "ageSeconds": 5.8,
+      "lat": -37.9148,
+      "lng": 147.09278,
+      "observedAt": "2026-09-14T06:28:58.671Z",
+      "ageSeconds": 2.1,
       "telemetry": {
-        "altitudeFeet": 925,
-        "groundSpeedKnots": 146.8,
-        "headingDegrees": 99,
-        "verticalRateFeetPerMinute": -64,
-        "squawk": "4670"
+        "altitudeFeet": 4425,
+        "groundSpeedKnots": 250.5,
+        "headingDegrees": 237.4,
+        "verticalRateFeetPerMinute": -128,
+        "squawk": null
       },
       "trackPoints": [
         {
           "lat": -38.08186,
           "lng": 147.12376,
           "observedAt": "2026-09-14T01:15:18.213Z"
+        },
+        {
+          "lat": -37.9148,
+          "lng": 147.09278,
+          "observedAt": "2026-09-14T06:28:58.671Z"
         }
       ],
       "source": {
@@ -1139,39 +2288,39 @@
       }
     },
     {
-      "id": "7cfa0c",
-      "hex": "7cfa0c",
-      "callsign": "TAIP2",
-      "registration": "N52-004",
-      "type": "EC35",
+      "id": "7cfa06",
+      "hex": "7cfa06",
+      "callsign": "RAVN33",
+      "registration": "A54-047",
+      "type": "PC21",
       "description": null,
-      "registeredOwner": "Australian Defence Force Joint Helicopter School",
+      "registeredOwner": "Royal Australian Air Force",
       "registeredOwnerConfidence": "reported",
       "country": "Australia",
       "countryConfidence": "reported",
       "countrySource": {
         "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/7CFA0C"
+        "url": "https://api.adsbdb.com/v0/aircraft/7CFA06"
       },
-      "classification": "helicopter",
-      "classificationMethod": "model-designation-rule",
-      "classificationConfidence": "medium",
-      "lat": -34.9485,
-      "lng": 150.54645,
-      "observedAt": "2026-09-14T01:15:23.919Z",
-      "ageSeconds": 0.1,
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": -32.59341,
+      "lng": 151.48433,
+      "observedAt": "2026-09-14T06:29:00.752Z",
+      "ageSeconds": 0,
       "telemetry": {
-        "altitudeFeet": null,
-        "groundSpeedKnots": 10.2,
-        "headingDegrees": 275.2,
-        "verticalRateFeetPerMinute": null,
-        "squawk": "7350"
+        "altitudeFeet": 5875,
+        "groundSpeedKnots": 245.6,
+        "headingDegrees": 343.9,
+        "verticalRateFeetPerMinute": 256,
+        "squawk": "1505"
       },
       "trackPoints": [
         {
-          "lat": -34.9485,
-          "lng": 150.54645,
-          "observedAt": "2026-09-14T01:15:23.919Z"
+          "lat": -32.59341,
+          "lng": 151.48433,
+          "observedAt": "2026-09-14T06:29:00.752Z"
         }
       ],
       "source": {
@@ -1180,10 +2329,51 @@
       }
     },
     {
-      "id": "7cfa10",
-      "hex": "7cfa10",
-      "callsign": "TAIP89",
-      "registration": "N52-008",
+      "id": "7cfa07",
+      "hex": "7cfa07",
+      "callsign": "RAVN34",
+      "registration": "A54-048",
+      "type": "PC21",
+      "description": null,
+      "registeredOwner": "Royal Australian Air Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "Australia",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/7CFA07"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": -32.83635,
+      "lng": 151.50745,
+      "observedAt": "2026-09-14T06:29:00.687Z",
+      "ageSeconds": 0.1,
+      "telemetry": {
+        "altitudeFeet": 12025,
+        "groundSpeedKnots": 293,
+        "headingDegrees": 13.4,
+        "verticalRateFeetPerMinute": 64,
+        "squawk": "1310"
+      },
+      "trackPoints": [
+        {
+          "lat": -32.83635,
+          "lng": 151.50745,
+          "observedAt": "2026-09-14T06:29:00.687Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "7cfa0a",
+      "hex": "7cfa0a",
+      "callsign": "TAIP23",
+      "registration": "N52-002",
       "type": "EC35",
       "description": null,
       "registeredOwner": "Australian Defence Force Joint Helicopter School",
@@ -1192,27 +2382,27 @@
       "countryConfidence": "reported",
       "countrySource": {
         "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/7CFA10"
+        "url": "https://api.adsbdb.com/v0/aircraft/7CFA0A"
       },
       "classification": "helicopter",
       "classificationMethod": "model-designation-rule",
       "classificationConfidence": "medium",
-      "lat": -34.96599,
-      "lng": 150.55933,
-      "observedAt": "2026-09-14T01:15:23.595Z",
-      "ageSeconds": 0.4,
+      "lat": -34.9638,
+      "lng": 150.52986,
+      "observedAt": "2026-09-14T06:29:00.227Z",
+      "ageSeconds": 0.5,
       "telemetry": {
-        "altitudeFeet": 450,
-        "groundSpeedKnots": 63.6,
-        "headingDegrees": 12.7,
+        "altitudeFeet": 1350,
+        "groundSpeedKnots": 105.9,
+        "headingDegrees": 280.9,
         "verticalRateFeetPerMinute": null,
         "squawk": "0100"
       },
       "trackPoints": [
         {
-          "lat": -34.96599,
-          "lng": 150.55933,
-          "observedAt": "2026-09-14T01:15:23.595Z"
+          "lat": -34.9638,
+          "lng": 150.52986,
+          "observedAt": "2026-09-14T06:29:00.227Z"
         }
       ],
       "source": {
@@ -1221,10 +2411,51 @@
       }
     },
     {
-      "id": "7cfaae",
-      "hex": "7cfaae",
-      "callsign": "TRPR56",
-      "registration": "A60-016",
+      "id": "7cfa0b",
+      "hex": "7cfa0b",
+      "callsign": "TAIP78",
+      "registration": "N52-003",
+      "type": "EC35",
+      "description": null,
+      "registeredOwner": "Australian Defence Force Joint Helicopter School",
+      "registeredOwnerConfidence": "reported",
+      "country": "Australia",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/7CFA0B"
+      },
+      "classification": "helicopter",
+      "classificationMethod": "model-designation-rule",
+      "classificationConfidence": "medium",
+      "lat": -34.97383,
+      "lng": 150.50933,
+      "observedAt": "2026-09-14T06:29:00.362Z",
+      "ageSeconds": 0.4,
+      "telemetry": {
+        "altitudeFeet": 725,
+        "groundSpeedKnots": 79.4,
+        "headingDegrees": 275.8,
+        "verticalRateFeetPerMinute": null,
+        "squawk": "0100"
+      },
+      "trackPoints": [
+        {
+          "lat": -34.97383,
+          "lng": 150.50933,
+          "observedAt": "2026-09-14T06:29:00.362Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "7cfaa7",
+      "hex": "7cfaa7",
+      "callsign": "JUST71",
+      "registration": "A60-009",
       "type": "H60",
       "description": null,
       "registeredOwner": null,
@@ -1235,22 +2466,22 @@
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": -27.41019,
-      "lng": 151.73223,
-      "observedAt": "2026-09-14T01:15:16.508Z",
-      "ageSeconds": 7.5,
+      "lat": -34.03139,
+      "lng": 150.95361,
+      "observedAt": "2026-09-14T06:29:00.411Z",
+      "ageSeconds": 0.3,
       "telemetry": {
-        "altitudeFeet": 900,
-        "groundSpeedKnots": null,
-        "headingDegrees": null,
-        "verticalRateFeetPerMinute": null,
-        "squawk": null
+        "altitudeFeet": 400,
+        "groundSpeedKnots": 86,
+        "headingDegrees": 1.3,
+        "verticalRateFeetPerMinute": 64,
+        "squawk": "6000"
       },
       "trackPoints": [
         {
-          "lat": -27.41019,
-          "lng": 151.73223,
-          "observedAt": "2026-09-14T01:15:16.508Z"
+          "lat": -34.03139,
+          "lng": 150.95361,
+          "observedAt": "2026-09-14T06:29:00.411Z"
         }
       ],
       "source": {
@@ -1259,11 +2490,11 @@
       }
     },
     {
-      "id": "7cfafc",
-      "hex": "7cfafc",
-      "callsign": "WHSE36",
-      "registration": "N52-101",
-      "type": "EC35",
+      "id": "7cfaa8",
+      "hex": "7cfaa8",
+      "callsign": "JUST72",
+      "registration": "A60-010",
+      "type": "H60",
       "description": null,
       "registeredOwner": null,
       "registeredOwnerConfidence": "unknown",
@@ -1273,22 +2504,22 @@
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": -27.27575,
-      "lng": 151.81674,
-      "observedAt": "2026-09-14T01:15:23.992Z",
+      "lat": -34.0342,
+      "lng": 150.95341,
+      "observedAt": "2026-09-14T06:29:00.734Z",
       "ageSeconds": 0,
       "telemetry": {
-        "altitudeFeet": 2700,
-        "groundSpeedKnots": 90.1,
-        "headingDegrees": 303.7,
-        "verticalRateFeetPerMinute": 960,
-        "squawk": "4530"
+        "altitudeFeet": null,
+        "groundSpeedKnots": 115.3,
+        "headingDegrees": 201.9,
+        "verticalRateFeetPerMinute": 128,
+        "squawk": "6000"
       },
       "trackPoints": [
         {
-          "lat": -27.27575,
-          "lng": 151.81674,
-          "observedAt": "2026-09-14T01:15:23.992Z"
+          "lat": -34.0342,
+          "lng": 150.95341,
+          "observedAt": "2026-09-14T06:29:00.734Z"
         }
       ],
       "source": {
@@ -1297,11 +2528,93 @@
       }
     },
     {
-      "id": "87cc0a",
-      "hex": "87cc0a",
-      "callsign": "FORTS61",
-      "registration": "07-3604",
-      "type": "B762",
+      "id": "87c81a",
+      "hex": "87c81a",
+      "callsign": null,
+      "registration": "5505",
+      "type": "P1",
+      "description": null,
+      "registeredOwner": "Japan Maritime Self-Defense Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "Japan",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/87C81A"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 35.82322,
+      "lng": 140.0302,
+      "observedAt": "2026-09-14T06:28:31.010Z",
+      "ageSeconds": 29.7,
+      "telemetry": {
+        "altitudeFeet": 125,
+        "groundSpeedKnots": 58,
+        "headingDegrees": 191,
+        "verticalRateFeetPerMinute": -547,
+        "squawk": "2170"
+      },
+      "trackPoints": [
+        {
+          "lat": 35.82322,
+          "lng": 140.0302,
+          "observedAt": "2026-09-14T06:28:31.010Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "87c823",
+      "hex": "87c823",
+      "callsign": null,
+      "registration": "5508",
+      "type": "P1",
+      "description": null,
+      "registeredOwner": "Japan Maritime Self-Defense Force",
+      "registeredOwnerConfidence": "reported",
+      "country": "Japan",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/87C823"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 35.34015,
+      "lng": 136.73718,
+      "observedAt": "2026-09-14T06:28:46.084Z",
+      "ageSeconds": 14.7,
+      "telemetry": {
+        "altitudeFeet": 8400,
+        "groundSpeedKnots": null,
+        "headingDegrees": null,
+        "verticalRateFeetPerMinute": 2692,
+        "squawk": "0413"
+      },
+      "trackPoints": [
+        {
+          "lat": 35.34015,
+          "lng": 136.73718,
+          "observedAt": "2026-09-14T06:28:46.084Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "87cc38",
+      "hex": "87cc38",
+      "callsign": "FENIX09",
+      "registration": "88-1207",
+      "type": "KC2",
       "description": null,
       "registeredOwner": "Japan Air Self-Defense Force",
       "registeredOwnerConfidence": "reported",
@@ -1309,32 +2622,27 @@
       "countryConfidence": "reported",
       "countrySource": {
         "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/87CC0A"
+        "url": "https://api.adsbdb.com/v0/aircraft/87CC38"
       },
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": 35.3627,
-      "lng": 137.40847,
-      "observedAt": "2026-09-14T01:15:21.811Z",
-      "ageSeconds": 2.2,
+      "lat": 35.90561,
+      "lng": 139.35878,
+      "observedAt": "2026-09-14T06:28:56.587Z",
+      "ageSeconds": 4.2,
       "telemetry": {
-        "altitudeFeet": 10075,
-        "groundSpeedKnots": 274.1,
-        "headingDegrees": 268.5,
-        "verticalRateFeetPerMinute": -1344,
-        "squawk": "2042"
+        "altitudeFeet": 3475,
+        "groundSpeedKnots": null,
+        "headingDegrees": null,
+        "verticalRateFeetPerMinute": -22,
+        "squawk": "1567"
       },
       "trackPoints": [
         {
-          "lat": 35.31587,
-          "lng": 137.71185,
-          "observedAt": "2026-09-13T23:14:31.740Z"
-        },
-        {
-          "lat": 35.3627,
-          "lng": 137.40847,
-          "observedAt": "2026-09-14T01:15:21.811Z"
+          "lat": 35.90561,
+          "lng": 139.35878,
+          "observedAt": "2026-09-14T06:28:56.587Z"
         }
       ],
       "source": {
@@ -1343,11 +2651,11 @@
       }
     },
     {
-      "id": "89910f",
-      "hex": "89910f",
-      "callsign": "0914",
-      "registration": "3701",
-      "type": "B738",
+      "id": "87cd1a",
+      "hex": "87cd1a",
+      "callsign": "DANDY01",
+      "registration": "84-3504",
+      "type": "E767",
       "description": null,
       "registeredOwner": null,
       "registeredOwnerConfidence": "unknown",
@@ -1357,22 +2665,22 @@
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": 24.17984,
-      "lng": 120.7953,
-      "observedAt": "2026-09-14T01:15:23.602Z",
-      "ageSeconds": 0.4,
+      "lat": 34.53157,
+      "lng": 136.9202,
+      "observedAt": "2026-09-14T06:28:56.504Z",
+      "ageSeconds": 4.2,
       "telemetry": {
-        "altitudeFeet": 20000,
-        "groundSpeedKnots": 402.7,
-        "headingDegrees": 241.5,
-        "verticalRateFeetPerMinute": 32,
-        "squawk": "4420"
+        "altitudeFeet": 13100,
+        "groundSpeedKnots": 378,
+        "headingDegrees": 61.7,
+        "verticalRateFeetPerMinute": -1856,
+        "squawk": "2070"
       },
       "trackPoints": [
         {
-          "lat": 24.17984,
-          "lng": 120.7953,
-          "observedAt": "2026-09-14T01:15:23.602Z"
+          "lat": 34.53157,
+          "lng": 136.9202,
+          "observedAt": "2026-09-14T06:28:56.504Z"
         }
       ],
       "source": {
@@ -1381,39 +2689,39 @@
       }
     },
     {
-      "id": "aa7e20",
-      "hex": "aa7e20",
-      "callsign": null,
-      "registration": "N7751L",
-      "type": "C172",
+      "id": "881b68",
+      "hex": "881b68",
+      "callsign": "LKY622",
+      "registration": "60108",
+      "type": "C130",
       "description": null,
-      "registeredOwner": "U S AIR FORCE OWNER",
+      "registeredOwner": "Royal Thai Air Force",
       "registeredOwnerConfidence": "reported",
-      "country": "United States",
+      "country": "Thailand",
       "countryConfidence": "reported",
       "countrySource": {
         "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/AA7E20"
+        "url": "https://api.adsbdb.com/v0/aircraft/881B68"
       },
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 39.16507,
-      "lng": -121.60784,
-      "observedAt": "2026-09-14T01:14:45.042Z",
-      "ageSeconds": 39,
+      "classification": "transport",
+      "classificationMethod": "model-designation-rule",
+      "classificationConfidence": "medium",
+      "lat": 13.68366,
+      "lng": 100.30428,
+      "observedAt": "2026-09-14T06:29:00.752Z",
+      "ageSeconds": 0,
       "telemetry": {
-        "altitudeFeet": 1525,
-        "groundSpeedKnots": 101.1,
-        "headingDegrees": 154.2,
-        "verticalRateFeetPerMinute": -256,
-        "squawk": null
+        "altitudeFeet": 14525,
+        "groundSpeedKnots": 288.9,
+        "headingDegrees": 4.6,
+        "verticalRateFeetPerMinute": -1408,
+        "squawk": "7244"
       },
       "trackPoints": [
         {
-          "lat": 39.16507,
-          "lng": -121.60784,
-          "observedAt": "2026-09-14T01:14:45.042Z"
+          "lat": 13.68366,
+          "lng": 100.30428,
+          "observedAt": "2026-09-14T06:29:00.752Z"
         }
       ],
       "source": {
@@ -1422,39 +2730,77 @@
       }
     },
     {
-      "id": "adfdf9",
-      "hex": "adfdf9",
-      "callsign": null,
-      "registration": "92-9000",
-      "type": "B742",
+      "id": "881c10",
+      "hex": "881c10",
+      "callsign": "MNRE5120",
+      "registration": "MNRE-5120",
+      "type": "EC30",
       "description": null,
-      "registeredOwner": "United States Air Force",
+      "registeredOwner": null,
+      "registeredOwnerConfidence": "unknown",
+      "country": null,
+      "countryConfidence": "unknown",
+      "countrySource": null,
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 13.62218,
+      "lng": 100.3701,
+      "observedAt": "2026-09-14T06:28:57.988Z",
+      "ageSeconds": 2.8,
+      "telemetry": {
+        "altitudeFeet": 1050,
+        "groundSpeedKnots": 102.8,
+        "headingDegrees": 287.6,
+        "verticalRateFeetPerMinute": -64,
+        "squawk": "4402"
+      },
+      "trackPoints": [
+        {
+          "lat": 13.62218,
+          "lng": 100.3701,
+          "observedAt": "2026-09-14T06:28:57.988Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "896264",
+      "hex": "896264",
+      "callsign": "AUH03",
+      "registration": "A6-ALN",
+      "type": "B772",
+      "description": null,
+      "registeredOwner": "Presidential Flight",
       "registeredOwnerConfidence": "reported",
-      "country": "United States",
+      "country": "United Arab Emirates",
       "countryConfidence": "reported",
       "countrySource": {
         "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/ADFDF9"
+        "url": "https://api.adsbdb.com/v0/aircraft/896264"
       },
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": 41.38973,
-      "lng": -73.42468,
-      "observedAt": "2026-09-14T01:15:23.453Z",
-      "ageSeconds": 0.5,
+      "lat": 31.99363,
+      "lng": 31.31871,
+      "observedAt": "2026-09-14T06:29:00.544Z",
+      "ageSeconds": 0.2,
       "telemetry": {
-        "altitudeFeet": 30000,
-        "groundSpeedKnots": 248,
-        "headingDegrees": 229,
+        "altitudeFeet": 38000,
+        "groundSpeedKnots": 468.9,
+        "headingDegrees": 354.9,
         "verticalRateFeetPerMinute": 0,
-        "squawk": "0773"
+        "squawk": "3435"
       },
       "trackPoints": [
         {
-          "lat": 41.38973,
-          "lng": -73.42468,
-          "observedAt": "2026-09-14T01:15:23.453Z"
+          "lat": 31.99363,
+          "lng": 31.31871,
+          "observedAt": "2026-09-14T06:29:00.544Z"
         }
       ],
       "source": {
@@ -1463,80 +2809,39 @@
       }
     },
     {
-      "id": "adfeb6",
-      "hex": "adfeb6",
-      "callsign": null,
-      "registration": "75-0125",
-      "type": "B742",
+      "id": "896c3c",
+      "hex": "896c3c",
+      "callsign": "ZABEEL03",
+      "registration": "1302",
+      "type": "A332",
       "description": null,
-      "registeredOwner": "United States Air Force",
+      "registeredOwner": "United Arab Emirates Air Force",
       "registeredOwnerConfidence": "reported",
-      "country": "United States",
+      "country": "United Arab Emirates",
       "countryConfidence": "reported",
       "countrySource": {
         "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/ADFEB6"
+        "url": "https://api.adsbdb.com/v0/aircraft/896C3C"
       },
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": 48.45217,
-      "lng": -62.8011,
-      "observedAt": "2026-09-14T01:15:13.735Z",
-      "ageSeconds": 10.3,
+      "lat": 24.87106,
+      "lng": 55.2168,
+      "observedAt": "2026-09-14T06:28:58.598Z",
+      "ageSeconds": 2.2,
       "telemetry": {
-        "altitudeFeet": 30025,
-        "groundSpeedKnots": 420.6,
-        "headingDegrees": 252,
-        "verticalRateFeetPerMinute": null,
-        "squawk": null
-      },
-      "trackPoints": [
-        {
-          "lat": 48.45217,
-          "lng": -62.8011,
-          "observedAt": "2026-09-14T01:15:13.735Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae0153",
-      "hex": "ae0153",
-      "callsign": null,
-      "registration": "63-8002",
-      "type": "K35R",
-      "description": null,
-      "registeredOwner": "United States Air Force",
-      "registeredOwnerConfidence": "reported",
-      "country": "United States",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/AE0153"
-      },
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 35.62367,
-      "lng": -79.19027,
-      "observedAt": "2026-09-14T01:15:22.194Z",
-      "ageSeconds": 1.8,
-      "telemetry": {
-        "altitudeFeet": 39000,
-        "groundSpeedKnots": 246,
-        "headingDegrees": 38,
+        "altitudeFeet": 23000,
+        "groundSpeedKnots": 350,
+        "headingDegrees": 244.7,
         "verticalRateFeetPerMinute": 0,
-        "squawk": "3572"
+        "squawk": "0626"
       },
       "trackPoints": [
         {
-          "lat": 35.62367,
-          "lng": -79.19027,
-          "observedAt": "2026-09-14T01:15:22.194Z"
+          "lat": 24.87106,
+          "lng": 55.2168,
+          "observedAt": "2026-09-14T06:28:58.598Z"
         }
       ],
       "source": {
@@ -1545,10 +2850,168 @@
       }
     },
     {
-      "id": "ae036c",
-      "hex": "ae036c",
-      "callsign": "NINJA18",
-      "registration": "98-00006",
+      "id": "a09aac",
+      "hex": "a09aac",
+      "callsign": "N138UA",
+      "registration": "N138UA",
+      "type": "DA40",
+      "description": null,
+      "registeredOwner": null,
+      "registeredOwnerConfidence": "unknown",
+      "country": null,
+      "countryConfidence": "unknown",
+      "countrySource": null,
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 35.75412,
+      "lng": 139.34737,
+      "observedAt": "2026-09-14T06:28:54.902Z",
+      "ageSeconds": 5.9,
+      "telemetry": {
+        "altitudeFeet": 450,
+        "groundSpeedKnots": 41.3,
+        "headingDegrees": 173.1,
+        "verticalRateFeetPerMinute": 0,
+        "squawk": "5473"
+      },
+      "trackPoints": [
+        {
+          "lat": 35.75412,
+          "lng": 139.34737,
+          "observedAt": "2026-09-14T06:28:54.902Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "a0ec98",
+      "hex": "a0ec98",
+      "callsign": "BRIO66",
+      "registration": "N159L",
+      "type": "CL60",
+      "description": null,
+      "registeredOwner": "LASAI Aviation LLC",
+      "registeredOwnerConfidence": "reported",
+      "country": "United States",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/A0EC98"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 41.94408,
+      "lng": 24.45058,
+      "observedAt": "2026-09-14T06:29:00.100Z",
+      "ageSeconds": 0.7,
+      "telemetry": {
+        "altitudeFeet": 28000,
+        "groundSpeedKnots": 361,
+        "headingDegrees": 211.8,
+        "verticalRateFeetPerMinute": 0,
+        "squawk": "6154"
+      },
+      "trackPoints": [
+        {
+          "lat": 41.94408,
+          "lng": 24.45058,
+          "observedAt": "2026-09-14T06:29:00.100Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "a444d6",
+      "hex": "a444d6",
+      "callsign": "N374YJ",
+      "registration": "N374YJ",
+      "type": "DA40",
+      "description": null,
+      "registeredOwner": null,
+      "registeredOwnerConfidence": "unknown",
+      "country": null,
+      "countryConfidence": "unknown",
+      "countrySource": null,
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 35.76599,
+      "lng": 139.33004,
+      "observedAt": "2026-09-14T06:29:00.620Z",
+      "ageSeconds": 0.1,
+      "telemetry": {
+        "altitudeFeet": 1375,
+        "groundSpeedKnots": 109.4,
+        "headingDegrees": 340.2,
+        "verticalRateFeetPerMinute": 192,
+        "squawk": "1200"
+      },
+      "trackPoints": [
+        {
+          "lat": 35.76599,
+          "lng": 139.33004,
+          "observedAt": "2026-09-14T06:29:00.620Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "adfe9a",
+      "hex": "adfe9a",
+      "callsign": "MFO692",
+      "registration": "95-00101",
+      "type": "BE20",
+      "description": null,
+      "registeredOwner": "United States Army",
+      "registeredOwnerConfidence": "reported",
+      "country": "United States",
+      "countryConfidence": "reported",
+      "countrySource": {
+        "id": "adsbdb",
+        "url": "https://api.adsbdb.com/v0/aircraft/ADFE9A"
+      },
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 31.42268,
+      "lng": 35.02824,
+      "observedAt": "2026-09-14T06:28:59.874Z",
+      "ageSeconds": 0.9,
+      "telemetry": {
+        "altitudeFeet": 6975,
+        "groundSpeedKnots": 233.2,
+        "headingDegrees": 140.9,
+        "verticalRateFeetPerMinute": 0,
+        "squawk": "3302"
+      },
+      "trackPoints": [
+        {
+          "lat": 31.42268,
+          "lng": 35.02824,
+          "observedAt": "2026-09-14T06:28:59.874Z"
+        }
+      ],
+      "source": {
+        "id": "adsb.lol",
+        "url": "https://api.adsb.lol/v2/mil"
+      }
+    },
+    {
+      "id": "ae04ab",
+      "hex": "ae04ab",
+      "callsign": "DUKE75",
+      "registration": "99-00102",
       "type": "C560",
       "description": null,
       "registeredOwner": "United States Army",
@@ -1557,32 +3020,27 @@
       "countryConfidence": "reported",
       "countrySource": {
         "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/AE036C"
+        "url": "https://api.adsbdb.com/v0/aircraft/AE04AB"
       },
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": 35.8916,
-      "lng": 139.44426,
-      "observedAt": "2026-09-14T01:15:23.770Z",
-      "ageSeconds": 0.2,
+      "lat": 43.92046,
+      "lng": 18.17931,
+      "observedAt": "2026-09-14T06:28:54.820Z",
+      "ageSeconds": 5.9,
       "telemetry": {
-        "altitudeFeet": 6925,
-        "groundSpeedKnots": 209.4,
-        "headingDegrees": 173.4,
+        "altitudeFeet": 31100,
+        "groundSpeedKnots": 410.8,
+        "headingDegrees": 134.9,
         "verticalRateFeetPerMinute": null,
-        "squawk": "0457"
+        "squawk": "7647"
       },
       "trackPoints": [
         {
-          "lat": 43.11381,
-          "lng": 141.38626,
-          "observedAt": "2026-09-13T23:13:53.201Z"
-        },
-        {
-          "lat": 35.8916,
-          "lng": 139.44426,
-          "observedAt": "2026-09-14T01:15:23.770Z"
+          "lat": 43.92046,
+          "lng": 18.17931,
+          "observedAt": "2026-09-14T06:28:54.820Z"
         }
       ],
       "source": {
@@ -1591,39 +3049,39 @@
       }
     },
     {
-      "id": "ae04d9",
-      "hex": "ae04d9",
-      "callsign": "CNV4152",
-      "registration": "165831",
-      "type": "B737",
+      "id": "ae06de",
+      "hex": "ae06de",
+      "callsign": "YUKI07",
+      "registration": "163556",
+      "type": "BE20",
       "description": null,
-      "registeredOwner": "United States Navy",
+      "registeredOwner": "United States Marine Corps",
       "registeredOwnerConfidence": "reported",
       "country": "United States",
       "countryConfidence": "reported",
       "countrySource": {
         "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/AE04D9"
+        "url": "https://api.adsbdb.com/v0/aircraft/AE06DE"
       },
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": 34.53212,
-      "lng": -104.57159,
-      "observedAt": "2026-09-14T01:15:23.888Z",
-      "ageSeconds": 0.1,
+      "lat": 38.51634,
+      "lng": 140.98352,
+      "observedAt": "2026-09-14T06:29:00.726Z",
+      "ageSeconds": 0,
       "telemetry": {
-        "altitudeFeet": 41000,
-        "groundSpeedKnots": 449.9,
-        "headingDegrees": 93.6,
-        "verticalRateFeetPerMinute": null,
-        "squawk": "0705"
+        "altitudeFeet": 22000,
+        "groundSpeedKnots": 221.8,
+        "headingDegrees": 187.3,
+        "verticalRateFeetPerMinute": 32,
+        "squawk": "7301"
       },
       "trackPoints": [
         {
-          "lat": 34.53212,
-          "lng": -104.57159,
-          "observedAt": "2026-09-14T01:15:23.888Z"
+          "lat": 38.51634,
+          "lng": 140.98352,
+          "observedAt": "2026-09-14T06:29:00.726Z"
         }
       ],
       "source": {
@@ -1649,22 +3107,27 @@
       "classification": "transport",
       "classificationMethod": "model-designation-rule",
       "classificationConfidence": "medium",
-      "lat": 44.42716,
-      "lng": -68.3156,
-      "observedAt": "2026-09-14T01:15:23.687Z",
+      "lat": 53.79521,
+      "lng": -1.59512,
+      "observedAt": "2026-09-14T06:29:00.410Z",
       "ageSeconds": 0.3,
       "telemetry": {
-        "altitudeFeet": 29400,
-        "groundSpeedKnots": 492.6,
-        "headingDegrees": 59.6,
-        "verticalRateFeetPerMinute": 448,
-        "squawk": "3543"
+        "altitudeFeet": 36000,
+        "groundSpeedKnots": 496,
+        "headingDegrees": 116.7,
+        "verticalRateFeetPerMinute": 0,
+        "squawk": "2006"
       },
       "trackPoints": [
         {
           "lat": 44.42716,
           "lng": -68.3156,
           "observedAt": "2026-09-14T01:15:23.687Z"
+        },
+        {
+          "lat": 53.79521,
+          "lng": -1.59512,
+          "observedAt": "2026-09-14T06:29:00.410Z"
         }
       ],
       "source": {
@@ -1673,39 +3136,36 @@
       }
     },
     {
-      "id": "ae07df",
-      "hex": "ae07df",
-      "callsign": "RCH426",
-      "registration": "94-0065",
-      "type": "C17",
+      "id": "ae0d33",
+      "hex": "ae0d33",
+      "callsign": "NINJA16",
+      "registration": "96-26716",
+      "type": "H60",
       "description": null,
-      "registeredOwner": "United States Air Force",
-      "registeredOwnerConfidence": "reported",
-      "country": "United States",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/AE07DF"
-      },
-      "classification": "transport",
-      "classificationMethod": "model-designation-rule",
-      "classificationConfidence": "medium",
-      "lat": 49.68466,
-      "lng": 7.08334,
-      "observedAt": "2026-09-14T01:15:22.020Z",
-      "ageSeconds": 2,
+      "registeredOwner": null,
+      "registeredOwnerConfidence": "unknown",
+      "country": null,
+      "countryConfidence": "unknown",
+      "countrySource": null,
+      "classification": "unknown",
+      "classificationMethod": "insufficient-evidence",
+      "classificationConfidence": "unknown",
+      "lat": 35.58426,
+      "lng": 139.3733,
+      "observedAt": "2026-09-14T06:29:00.752Z",
+      "ageSeconds": 0,
       "telemetry": {
-        "altitudeFeet": 12875,
-        "groundSpeedKnots": 326,
-        "headingDegrees": 346.1,
-        "verticalRateFeetPerMinute": 2112,
-        "squawk": "2541"
+        "altitudeFeet": 800,
+        "groundSpeedKnots": 83,
+        "headingDegrees": 328.8,
+        "verticalRateFeetPerMinute": null,
+        "squawk": "1200"
       },
       "trackPoints": [
         {
-          "lat": 49.68466,
-          "lng": 7.08334,
-          "observedAt": "2026-09-14T01:15:22.020Z"
+          "lat": 35.58426,
+          "lng": 139.3733,
+          "observedAt": "2026-09-14T06:29:00.752Z"
         }
       ],
       "source": {
@@ -1714,44 +3174,39 @@
       }
     },
     {
-      "id": "ae08fa",
-      "hex": "ae08fa",
-      "callsign": "PAT008",
-      "registration": "84-24377",
-      "type": "BE20",
+      "id": "ae10ea",
+      "hex": "ae10ea",
+      "callsign": "C2004",
+      "registration": "2004",
+      "type": "C30J",
       "description": null,
-      "registeredOwner": "United States Army",
+      "registeredOwner": "United States Coast Guard",
       "registeredOwnerConfidence": "reported",
       "country": "United States",
       "countryConfidence": "reported",
       "countrySource": {
         "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/AE08FA"
+        "url": "https://api.adsbdb.com/v0/aircraft/AE10EA"
       },
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": 41.69449,
-      "lng": -76.99094,
-      "observedAt": "2026-09-14T01:15:23.969Z",
-      "ageSeconds": 0,
+      "lat": 32.39868,
+      "lng": -117.80321,
+      "observedAt": "2026-09-14T06:29:00.057Z",
+      "ageSeconds": 0.7,
       "telemetry": {
-        "altitudeFeet": 27000,
-        "groundSpeedKnots": 314.8,
-        "headingDegrees": 43.1,
-        "verticalRateFeetPerMinute": 0,
-        "squawk": "2677"
+        "altitudeFeet": 975,
+        "groundSpeedKnots": 179,
+        "headingDegrees": 89.7,
+        "verticalRateFeetPerMinute": null,
+        "squawk": "3313"
       },
       "trackPoints": [
         {
-          "lat": 34.55829,
-          "lng": -84.6809,
-          "observedAt": "2026-09-13T23:14:31.419Z"
-        },
-        {
-          "lat": 41.69449,
-          "lng": -76.99094,
-          "observedAt": "2026-09-14T01:15:23.969Z"
+          "lat": 32.39868,
+          "lng": -117.80321,
+          "observedAt": "2026-09-14T06:29:00.057Z"
         }
       ],
       "source": {
@@ -1760,10 +3215,10 @@
       }
     },
     {
-      "id": "ae1171",
-      "hex": "ae1171",
-      "callsign": "MOOSE68",
-      "registration": "02-1099",
+      "id": "ae1173",
+      "hex": "ae1173",
+      "callsign": "RCH544",
+      "registration": "02-1101",
       "type": "C17",
       "description": null,
       "registeredOwner": "United States Air Force",
@@ -1772,27 +3227,27 @@
       "countryConfidence": "reported",
       "countrySource": {
         "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/AE1171"
+        "url": "https://api.adsbdb.com/v0/aircraft/AE1173"
       },
       "classification": "transport",
       "classificationMethod": "model-designation-rule",
       "classificationConfidence": "medium",
-      "lat": 44.07398,
-      "lng": 23.10941,
-      "observedAt": "2026-09-14T01:15:23.987Z",
-      "ageSeconds": 0,
+      "lat": 49.41449,
+      "lng": 15.54735,
+      "observedAt": "2026-09-14T06:29:00.430Z",
+      "ageSeconds": 0.3,
       "telemetry": {
-        "altitudeFeet": 38000,
-        "groundSpeedKnots": 414.9,
-        "headingDegrees": 337,
-        "verticalRateFeetPerMinute": 0,
-        "squawk": "2214"
+        "altitudeFeet": 36000,
+        "groundSpeedKnots": 423.8,
+        "headingDegrees": 288.9,
+        "verticalRateFeetPerMinute": -64,
+        "squawk": "2223"
       },
       "trackPoints": [
         {
-          "lat": 44.07398,
-          "lng": 23.10941,
-          "observedAt": "2026-09-14T01:15:23.987Z"
+          "lat": 49.41449,
+          "lng": 15.54735,
+          "observedAt": "2026-09-14T06:29:00.430Z"
         }
       ],
       "source": {
@@ -1818,22 +3273,27 @@
       "classification": "transport",
       "classificationMethod": "model-designation-rule",
       "classificationConfidence": "medium",
-      "lat": 52.69194,
-      "lng": -9.80949,
-      "observedAt": "2026-09-14T01:15:23.992Z",
-      "ageSeconds": 0,
+      "lat": 46.0708,
+      "lng": -63.65425,
+      "observedAt": "2026-09-14T06:29:00.527Z",
+      "ageSeconds": 0.2,
       "telemetry": {
-        "altitudeFeet": 11700,
-        "groundSpeedKnots": 325,
-        "headingDegrees": 277.8,
-        "verticalRateFeetPerMinute": 1440,
-        "squawk": "3603"
+        "altitudeFeet": 34000,
+        "groundSpeedKnots": 386.4,
+        "headingDegrees": 244.2,
+        "verticalRateFeetPerMinute": null,
+        "squawk": "0704"
       },
       "trackPoints": [
         {
           "lat": 52.69194,
           "lng": -9.80949,
           "observedAt": "2026-09-14T01:15:23.992Z"
+        },
+        {
+          "lat": 46.0708,
+          "lng": -63.65425,
+          "observedAt": "2026-09-14T06:29:00.527Z"
         }
       ],
       "source": {
@@ -1842,10 +3302,10 @@
       }
     },
     {
-      "id": "ae1448",
-      "hex": "ae1448",
-      "callsign": "RCH4543",
-      "registration": "04-4138",
+      "id": "ae119c",
+      "hex": "ae119c",
+      "callsign": "RCH4275",
+      "registration": "03-3119",
       "type": "C17",
       "description": null,
       "registeredOwner": "United States Air Force",
@@ -1854,32 +3314,27 @@
       "countryConfidence": "reported",
       "countrySource": {
         "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/AE1448"
+        "url": "https://api.adsbdb.com/v0/aircraft/AE119C"
       },
       "classification": "transport",
       "classificationMethod": "model-designation-rule",
       "classificationConfidence": "medium",
-      "lat": 34.76935,
-      "lng": -107.97161,
-      "observedAt": "2026-09-14T01:15:23.992Z",
-      "ageSeconds": 0,
+      "lat": 53.18826,
+      "lng": 0.97463,
+      "observedAt": "2026-09-14T06:29:00.279Z",
+      "ageSeconds": 0.5,
       "telemetry": {
-        "altitudeFeet": 36000,
-        "groundSpeedKnots": 432,
-        "headingDegrees": 262.2,
-        "verticalRateFeetPerMinute": -64,
-        "squawk": "7015"
+        "altitudeFeet": 30000,
+        "groundSpeedKnots": 412.1,
+        "headingDegrees": 280.6,
+        "verticalRateFeetPerMinute": 32,
+        "squawk": "2523"
       },
       "trackPoints": [
         {
-          "lat": 36.78864,
-          "lng": -90.15764,
-          "observedAt": "2026-09-13T23:14:31.711Z"
-        },
-        {
-          "lat": 34.76935,
-          "lng": -107.97161,
-          "observedAt": "2026-09-14T01:15:23.992Z"
+          "lat": 53.18826,
+          "lng": 0.97463,
+          "observedAt": "2026-09-14T06:29:00.279Z"
         }
       ],
       "source": {
@@ -1905,63 +3360,27 @@
       "classification": "transport",
       "classificationMethod": "model-designation-rule",
       "classificationConfidence": "medium",
-      "lat": 53.24423,
-      "lng": -11.54545,
-      "observedAt": "2026-09-14T01:15:23.899Z",
-      "ageSeconds": 0.1,
+      "lat": 45.86126,
+      "lng": -66.71496,
+      "observedAt": "2026-09-14T06:28:56.214Z",
+      "ageSeconds": 4.5,
       "telemetry": {
-        "altitudeFeet": 25725,
-        "groundSpeedKnots": 427.8,
-        "headingDegrees": 291.5,
-        "verticalRateFeetPerMinute": 416,
-        "squawk": "3602"
+        "altitudeFeet": 30000,
+        "groundSpeedKnots": 394.9,
+        "headingDegrees": 234.4,
+        "verticalRateFeetPerMinute": null,
+        "squawk": "0703"
       },
       "trackPoints": [
         {
           "lat": 53.24423,
           "lng": -11.54545,
           "observedAt": "2026-09-14T01:15:23.899Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae149e",
-      "hex": "ae149e",
-      "callsign": "MNTNA23",
-      "registration": "160842",
-      "type": "BE9L",
-      "description": null,
-      "registeredOwner": "United States Navy",
-      "registeredOwnerConfidence": "reported",
-      "country": "United States",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/AE149E"
-      },
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 29.60145,
-      "lng": -96.91702,
-      "observedAt": "2026-09-14T01:15:23.633Z",
-      "ageSeconds": 0.4,
-      "telemetry": {
-        "altitudeFeet": 13975,
-        "groundSpeedKnots": 236.6,
-        "headingDegrees": 208,
-        "verticalRateFeetPerMinute": 0,
-        "squawk": "4531"
-      },
-      "trackPoints": [
+        },
         {
-          "lat": 29.60145,
-          "lng": -96.91702,
-          "observedAt": "2026-09-14T01:15:23.633Z"
+          "lat": 45.86126,
+          "lng": -66.71496,
+          "observedAt": "2026-09-14T06:28:56.214Z"
         }
       ],
       "source": {
@@ -1970,51 +3389,10 @@
       }
     },
     {
-      "id": "ae1eb6",
-      "hex": "ae1eb6",
-      "callsign": "RN049",
-      "registration": "166049",
-      "type": "TEX2",
-      "description": null,
-      "registeredOwner": "United States Navy",
-      "registeredOwnerConfidence": "reported",
-      "country": "United States",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/AE1EB6"
-      },
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 31.35358,
-      "lng": -85.40134,
-      "observedAt": "2026-09-14T01:15:23.857Z",
-      "ageSeconds": 0.1,
-      "telemetry": {
-        "altitudeFeet": 9975,
-        "groundSpeedKnots": 253.2,
-        "headingDegrees": 200.6,
-        "verticalRateFeetPerMinute": -128,
-        "squawk": "1742"
-      },
-      "trackPoints": [
-        {
-          "lat": 31.35358,
-          "lng": -85.40134,
-          "observedAt": "2026-09-14T01:15:23.857Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae20c3",
-      "hex": "ae20c3",
-      "callsign": "RCH3298",
-      "registration": "07-7182",
+      "id": "ae4d69",
+      "hex": "ae4d69",
+      "callsign": "RCH310",
+      "registration": "10-0216",
       "type": "C17",
       "description": null,
       "registeredOwner": "United States Air Force",
@@ -2023,1063 +3401,27 @@
       "countryConfidence": "reported",
       "countrySource": {
         "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/AE20C3"
+        "url": "https://api.adsbdb.com/v0/aircraft/AE4D69"
       },
       "classification": "transport",
       "classificationMethod": "model-designation-rule",
       "classificationConfidence": "medium",
-      "lat": 53.32654,
-      "lng": 1.76586,
-      "observedAt": "2026-09-14T01:15:21.950Z",
-      "ageSeconds": 2,
+      "lat": 50.24492,
+      "lng": 7.27642,
+      "observedAt": "2026-09-14T06:28:58.485Z",
+      "ageSeconds": 2.3,
       "telemetry": {
-        "altitudeFeet": 30000,
-        "groundSpeedKnots": null,
-        "headingDegrees": null,
-        "verticalRateFeetPerMinute": 0,
-        "squawk": "0132"
+        "altitudeFeet": 13000,
+        "groundSpeedKnots": 332,
+        "headingDegrees": 154.9,
+        "verticalRateFeetPerMinute": -1504,
+        "squawk": "7616"
       },
       "trackPoints": [
         {
-          "lat": 53.32654,
-          "lng": 1.76586,
-          "observedAt": "2026-09-14T01:15:21.950Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae26b2",
-      "hex": "ae26b2",
-      "callsign": "C6592",
-      "registration": "6592",
-      "type": "AS65",
-      "description": null,
-      "registeredOwner": "United States Coast Guard",
-      "registeredOwnerConfidence": "reported",
-      "country": "United States",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/AE26B2"
-      },
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 48.1751,
-      "lng": -123.7839,
-      "observedAt": "2026-09-14T01:15:19.717Z",
-      "ageSeconds": 4.3,
-      "telemetry": {
-        "altitudeFeet": 175,
-        "groundSpeedKnots": 109.5,
-        "headingDegrees": 84.8,
-        "verticalRateFeetPerMinute": null,
-        "squawk": "1277"
-      },
-      "trackPoints": [
-        {
-          "lat": 48.1751,
-          "lng": -123.7839,
-          "observedAt": "2026-09-14T01:15:19.717Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae2eeb",
-      "hex": "ae2eeb",
-      "callsign": "SH110",
-      "registration": "166110",
-      "type": "TEX2",
-      "description": null,
-      "registeredOwner": "United States Navy",
-      "registeredOwnerConfidence": "reported",
-      "country": "United States",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/AE2EEB"
-      },
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 32.55254,
-      "lng": -86.15061,
-      "observedAt": "2026-09-14T01:15:23.777Z",
-      "ageSeconds": 0.2,
-      "telemetry": {
-        "altitudeFeet": 10825,
-        "groundSpeedKnots": 263.5,
-        "headingDegrees": 201.6,
-        "verticalRateFeetPerMinute": -1344,
-        "squawk": "6001"
-      },
-      "trackPoints": [
-        {
-          "lat": 32.55254,
-          "lng": -86.15061,
-          "observedAt": "2026-09-14T01:15:23.777Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae2ef3",
-      "hex": "ae2ef3",
-      "callsign": "SH118",
-      "registration": "166118",
-      "type": "TEX2",
-      "description": null,
-      "registeredOwner": "United States Navy",
-      "registeredOwnerConfidence": "reported",
-      "country": "United States",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/AE2EF3"
-      },
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 32.30064,
-      "lng": -86.39581,
-      "observedAt": "2026-09-14T01:15:14.793Z",
-      "ageSeconds": 9.2,
-      "telemetry": {
-        "altitudeFeet": 750,
-        "groundSpeedKnots": 173.5,
-        "headingDegrees": 274.3,
-        "verticalRateFeetPerMinute": 960,
-        "squawk": "2263"
-      },
-      "trackPoints": [
-        {
-          "lat": 32.30064,
-          "lng": -86.39581,
-          "observedAt": "2026-09-14T01:15:14.793Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae49c6",
-      "hex": "ae49c6",
-      "callsign": "RCH716",
-      "registration": "09-9210",
-      "type": "C17",
-      "description": null,
-      "registeredOwner": "United States Air Force",
-      "registeredOwnerConfidence": "reported",
-      "country": "United States",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/AE49C6"
-      },
-      "classification": "transport",
-      "classificationMethod": "model-designation-rule",
-      "classificationConfidence": "medium",
-      "lat": 39.12504,
-      "lng": -89.72478,
-      "observedAt": "2026-09-14T01:15:21.391Z",
-      "ageSeconds": 2.6,
-      "telemetry": {
-        "altitudeFeet": 27000,
-        "groundSpeedKnots": 246,
-        "headingDegrees": 46,
-        "verticalRateFeetPerMinute": 0,
-        "squawk": "2117"
-      },
-      "trackPoints": [
-        {
-          "lat": 39.12504,
-          "lng": -89.72478,
-          "observedAt": "2026-09-14T01:15:21.391Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae4a09",
-      "hex": "ae4a09",
-      "callsign": "BOMR716",
-      "registration": "166128",
-      "type": "TEX2",
-      "description": null,
-      "registeredOwner": "United States Navy",
-      "registeredOwnerConfidence": "reported",
-      "country": "United States",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/AE4A09"
-      },
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 28.52133,
-      "lng": -98.26457,
-      "observedAt": "2026-09-14T01:15:23.868Z",
-      "ageSeconds": 0.1,
-      "telemetry": {
-        "altitudeFeet": 11525,
-        "groundSpeedKnots": 262.8,
-        "headingDegrees": 125.9,
-        "verticalRateFeetPerMinute": -1408,
-        "squawk": "1577"
-      },
-      "trackPoints": [
-        {
-          "lat": 28.52133,
-          "lng": -98.26457,
-          "observedAt": "2026-09-14T01:15:23.868Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae4a7d",
-      "hex": "ae4a7d",
-      "callsign": "TOR11",
-      "registration": "168209",
-      "type": "B350",
-      "description": null,
-      "registeredOwner": "United States Marine Corps",
-      "registeredOwnerConfidence": "reported",
-      "country": "United States",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/AE4A7D"
-      },
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 33.78987,
-      "lng": 131.86374,
-      "observedAt": "2026-09-14T01:15:23.200Z",
-      "ageSeconds": 0.8,
-      "telemetry": {
-        "altitudeFeet": 9900,
-        "groundSpeedKnots": 228.8,
-        "headingDegrees": 119.6,
-        "verticalRateFeetPerMinute": 64,
-        "squawk": "4362"
-      },
-      "trackPoints": [
-        {
-          "lat": 35.24908,
-          "lng": 128.92508,
-          "observedAt": "2026-09-13T23:14:31.740Z"
-        },
-        {
-          "lat": 33.78987,
-          "lng": 131.86374,
-          "observedAt": "2026-09-14T01:15:23.200Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae4ddd",
-      "hex": "ae4ddd",
-      "callsign": "SAM957",
-      "registration": "11-0550",
-      "type": "GLF5",
-      "description": null,
-      "registeredOwner": null,
-      "registeredOwnerConfidence": "unknown",
-      "country": null,
-      "countryConfidence": "unknown",
-      "countrySource": null,
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 36.19592,
-      "lng": -114.68455,
-      "observedAt": "2026-09-14T01:15:16.138Z",
-      "ageSeconds": 7.9,
-      "telemetry": {
-        "altitudeFeet": 19900,
-        "groundSpeedKnots": 208,
-        "headingDegrees": 90,
-        "verticalRateFeetPerMinute": 2480,
-        "squawk": "2014"
-      },
-      "trackPoints": [
-        {
-          "lat": 36.19592,
-          "lng": -114.68455,
-          "observedAt": "2026-09-14T01:15:16.138Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae4e9b",
-      "hex": "ae4e9b",
-      "callsign": "SH177",
-      "registration": "166177",
-      "type": "TEX2",
-      "description": null,
-      "registeredOwner": "United States Navy",
-      "registeredOwnerConfidence": "reported",
-      "country": "United States",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/AE4E9B"
-      },
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 32.13054,
-      "lng": -85.88293,
-      "observedAt": "2026-09-14T01:15:23.313Z",
-      "ageSeconds": 0.7,
-      "telemetry": {
-        "altitudeFeet": 4425,
-        "groundSpeedKnots": 208.9,
-        "headingDegrees": 206.4,
-        "verticalRateFeetPerMinute": 0,
-        "squawk": "1200"
-      },
-      "trackPoints": [
-        {
-          "lat": 32.13054,
-          "lng": -85.88293,
-          "observedAt": "2026-09-14T01:15:23.313Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae4fd0",
-      "hex": "ae4fd0",
-      "callsign": "FFAB123",
-      "registration": "168128",
-      "type": "H60",
-      "description": null,
-      "registeredOwner": "United States Navy",
-      "registeredOwnerConfidence": "reported",
-      "country": "United States",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/AE4FD0"
-      },
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 32.70312,
-      "lng": -117.2098,
-      "observedAt": "2026-09-14T01:15:21.912Z",
-      "ageSeconds": 2.1,
-      "telemetry": {
-        "altitudeFeet": null,
-        "groundSpeedKnots": 0,
-        "headingDegrees": null,
-        "verticalRateFeetPerMinute": null,
-        "squawk": "1200"
-      },
-      "trackPoints": [
-        {
-          "lat": 32.81726,
-          "lng": -117.89028,
-          "observedAt": "2026-09-13T23:14:12.364Z"
-        },
-        {
-          "lat": 32.70312,
-          "lng": -117.2098,
-          "observedAt": "2026-09-14T01:15:21.912Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae5116",
-      "hex": "ae5116",
-      "callsign": "R20300",
-      "registration": "10-20300",
-      "type": "H60",
-      "description": null,
-      "registeredOwner": null,
-      "registeredOwnerConfidence": "unknown",
-      "country": null,
-      "countryConfidence": "unknown",
-      "countrySource": null,
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 31.40749,
-      "lng": -97.76103,
-      "observedAt": "2026-09-14T01:15:23.930Z",
-      "ageSeconds": 0.1,
-      "telemetry": {
-        "altitudeFeet": 1800,
-        "groundSpeedKnots": 149.4,
-        "headingDegrees": 256.1,
-        "verticalRateFeetPerMinute": 0,
-        "squawk": "4000"
-      },
-      "trackPoints": [
-        {
-          "lat": 31.40749,
-          "lng": -97.76103,
-          "observedAt": "2026-09-14T01:15:23.930Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae52be",
-      "hex": "ae52be",
-      "callsign": "R08805",
-      "registration": "10-08805",
-      "type": "H47",
-      "description": null,
-      "registeredOwner": null,
-      "registeredOwnerConfidence": "unknown",
-      "country": null,
-      "countryConfidence": "unknown",
-      "countrySource": null,
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 32.3822,
-      "lng": -99.62858,
-      "observedAt": "2026-09-14T01:15:23.569Z",
-      "ageSeconds": 0.4,
-      "telemetry": {
-        "altitudeFeet": 2750,
-        "groundSpeedKnots": 96.5,
-        "headingDegrees": 304,
-        "verticalRateFeetPerMinute": 64,
-        "squawk": "5242"
-      },
-      "trackPoints": [
-        {
-          "lat": 32.3822,
-          "lng": -99.62858,
-          "observedAt": "2026-09-14T01:15:23.569Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae5913",
-      "hex": "ae5913",
-      "callsign": "KONA21",
-      "registration": "168322",
-      "type": "V22",
-      "description": null,
-      "registeredOwner": null,
-      "registeredOwnerConfidence": "unknown",
-      "country": null,
-      "countryConfidence": "unknown",
-      "countrySource": null,
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": -28.63642,
-      "lng": 151.39263,
-      "observedAt": "2026-09-14T01:15:23.919Z",
-      "ageSeconds": 0.1,
-      "telemetry": {
-        "altitudeFeet": 7700,
-        "groundSpeedKnots": 247.6,
-        "headingDegrees": 18.4,
-        "verticalRateFeetPerMinute": 0,
-        "squawk": "1417"
-      },
-      "trackPoints": [
-        {
-          "lat": -35.85877,
-          "lng": 146.55762,
-          "observedAt": "2026-09-13T23:14:31.388Z"
-        },
-        {
-          "lat": -28.63642,
-          "lng": 151.39263,
-          "observedAt": "2026-09-14T01:15:23.919Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae5c77",
-      "hex": "ae5c77",
-      "callsign": "STMPD19",
-      "registration": "169319",
-      "type": "B350",
-      "description": null,
-      "registeredOwner": "United States Marine Corps",
-      "registeredOwnerConfidence": "reported",
-      "country": "United States",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/AE5C77"
-      },
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 34.9758,
-      "lng": -118.61086,
-      "observedAt": "2026-09-14T01:15:23.873Z",
-      "ageSeconds": 0.1,
-      "telemetry": {
-        "altitudeFeet": 19000,
-        "groundSpeedKnots": 284.8,
-        "headingDegrees": 171.9,
-        "verticalRateFeetPerMinute": null,
-        "squawk": "3571"
-      },
-      "trackPoints": [
-        {
-          "lat": 44.77405,
-          "lng": -121.29979,
-          "observedAt": "2026-09-13T23:14:31.290Z"
-        },
-        {
-          "lat": 34.9758,
-          "lng": -118.61086,
-          "observedAt": "2026-09-14T01:15:23.873Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae5e81",
-      "hex": "ae5e81",
-      "callsign": "KONA11",
-      "registration": "168642",
-      "type": "V22",
-      "description": null,
-      "registeredOwner": null,
-      "registeredOwnerConfidence": "unknown",
-      "country": null,
-      "countryConfidence": "unknown",
-      "countrySource": null,
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": -27.54236,
-      "lng": 151.77757,
-      "observedAt": "2026-09-14T01:15:23.091Z",
-      "ageSeconds": 0.9,
-      "telemetry": {
-        "altitudeFeet": 1250,
-        "groundSpeedKnots": 71.4,
-        "headingDegrees": 135.6,
-        "verticalRateFeetPerMinute": -128,
-        "squawk": "1404"
-      },
-      "trackPoints": [
-        {
-          "lat": -35.0647,
-          "lng": 147.23305,
-          "observedAt": "2026-09-13T23:14:31.580Z"
-        },
-        {
-          "lat": -27.54236,
-          "lng": 151.77757,
-          "observedAt": "2026-09-14T01:15:23.091Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae63c7",
-      "hex": "ae63c7",
-      "callsign": null,
-      "registration": "21-46091",
-      "type": "B762",
-      "description": null,
-      "registeredOwner": null,
-      "registeredOwnerConfidence": "unknown",
-      "country": null,
-      "countryConfidence": "unknown",
-      "countrySource": null,
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 25.20553,
-      "lng": 55.53631,
-      "observedAt": "2026-09-14T01:15:23.042Z",
-      "ageSeconds": 1,
-      "telemetry": {
-        "altitudeFeet": 28000,
-        "groundSpeedKnots": null,
-        "headingDegrees": null,
-        "verticalRateFeetPerMinute": 0,
-        "squawk": "3266"
-      },
-      "trackPoints": [
-        {
-          "lat": 25.20553,
-          "lng": 55.53631,
-          "observedAt": "2026-09-14T01:15:23.042Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae67ac",
-      "hex": "ae67ac",
-      "callsign": null,
-      "registration": null,
-      "type": "mlat",
-      "description": null,
-      "registeredOwner": null,
-      "registeredOwnerConfidence": "unknown",
-      "country": null,
-      "countryConfidence": "unknown",
-      "countrySource": null,
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 35.59789,
-      "lng": 135.40308,
-      "observedAt": "2026-09-14T01:15:20.030Z",
-      "ageSeconds": 4,
-      "telemetry": {
-        "altitudeFeet": 32000,
-        "groundSpeedKnots": null,
-        "headingDegrees": null,
-        "verticalRateFeetPerMinute": 0,
-        "squawk": "3217"
-      },
-      "trackPoints": [
-        {
-          "lat": 35.59789,
-          "lng": 135.40308,
-          "observedAt": "2026-09-14T01:15:20.030Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae67de",
-      "hex": "ae67de",
-      "callsign": null,
-      "registration": null,
-      "type": "adsb_icao",
-      "description": null,
-      "registeredOwner": null,
-      "registeredOwnerConfidence": "unknown",
-      "country": null,
-      "countryConfidence": "unknown",
-      "countrySource": null,
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 25.92834,
-      "lng": 51.68846,
-      "observedAt": "2026-09-14T01:15:23.182Z",
-      "ageSeconds": 0.8,
-      "telemetry": {
-        "altitudeFeet": 20150,
-        "groundSpeedKnots": 393.1,
-        "headingDegrees": 119.2,
-        "verticalRateFeetPerMinute": 1472,
-        "squawk": "4407"
-      },
-      "trackPoints": [
-        {
-          "lat": 25.92834,
-          "lng": 51.68846,
-          "observedAt": "2026-09-14T01:15:23.182Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae685e",
-      "hex": "ae685e",
-      "callsign": null,
-      "registration": null,
-      "type": "mlat",
-      "description": null,
-      "registeredOwner": null,
-      "registeredOwnerConfidence": "unknown",
-      "country": null,
-      "countryConfidence": "unknown",
-      "countrySource": null,
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 36.17954,
-      "lng": -120.53803,
-      "observedAt": "2026-09-14T01:15:22.860Z",
-      "ageSeconds": 1.1,
-      "telemetry": {
-        "altitudeFeet": 29000,
-        "groundSpeedKnots": 215,
-        "headingDegrees": 140,
-        "verticalRateFeetPerMinute": 0,
-        "squawk": "1565"
-      },
-      "trackPoints": [
-        {
-          "lat": 36.17954,
-          "lng": -120.53803,
-          "observedAt": "2026-09-14T01:15:22.860Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae68ae",
-      "hex": "ae68ae",
-      "callsign": null,
-      "registration": "99-3106",
-      "type": "D328",
-      "description": null,
-      "registeredOwner": "United States Air Force",
-      "registeredOwnerConfidence": "reported",
-      "country": "United States",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/AE68AE"
-      },
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 30.77518,
-      "lng": -86.51022,
-      "observedAt": "2026-09-14T01:15:23.880Z",
-      "ageSeconds": 0.1,
-      "telemetry": {
-        "altitudeFeet": 750,
-        "groundSpeedKnots": 118.2,
-        "headingDegrees": 98.3,
-        "verticalRateFeetPerMinute": -128,
-        "squawk": "1200"
-      },
-      "trackPoints": [
-        {
-          "lat": 32.31712,
-          "lng": -97.08893,
-          "observedAt": "2026-09-13T23:14:31.223Z"
-        },
-        {
-          "lat": 30.77518,
-          "lng": -86.51022,
-          "observedAt": "2026-09-14T01:15:23.880Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae695d",
-      "hex": "ae695d",
-      "callsign": "RCH191",
-      "registration": "19-5936",
-      "type": "C30J",
-      "description": null,
-      "registeredOwner": "United States Air Force",
-      "registeredOwnerConfidence": "reported",
-      "country": "United States",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/AE695D"
-      },
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 47.48218,
-      "lng": -71.98218,
-      "observedAt": "2026-09-14T01:15:22.203Z",
-      "ageSeconds": 1.8,
-      "telemetry": {
-        "altitudeFeet": 26000,
-        "groundSpeedKnots": 234,
-        "headingDegrees": 231.9,
-        "verticalRateFeetPerMinute": 192,
-        "squawk": "7257"
-      },
-      "trackPoints": [
-        {
-          "lat": 47.48218,
-          "lng": -71.98218,
-          "observedAt": "2026-09-14T01:15:22.203Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae73ea",
-      "hex": "ae73ea",
-      "callsign": "FH018",
-      "registration": "170191",
-      "type": "A119",
-      "description": null,
-      "registeredOwner": null,
-      "registeredOwnerConfidence": "unknown",
-      "country": null,
-      "countryConfidence": "unknown",
-      "countrySource": null,
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 33.36731,
-      "lng": -86.69751,
-      "observedAt": "2026-09-14T01:15:23.928Z",
-      "ageSeconds": 0.1,
-      "telemetry": {
-        "altitudeFeet": 1475,
-        "groundSpeedKnots": 127.8,
-        "headingDegrees": 200.1,
-        "verticalRateFeetPerMinute": 0,
-        "squawk": "1200"
-      },
-      "trackPoints": [
-        {
-          "lat": 33.36731,
-          "lng": -86.69751,
-          "observedAt": "2026-09-14T01:15:23.928Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "ae749f",
-      "hex": "ae749f",
-      "callsign": null,
-      "registration": "170480",
-      "type": "P8",
-      "description": null,
-      "registeredOwner": null,
-      "registeredOwnerConfidence": "unknown",
-      "country": null,
-      "countryConfidence": "unknown",
-      "countrySource": null,
-      "classification": "maritime-patrol",
-      "classificationMethod": "model-designation-rule",
-      "classificationConfidence": "medium",
-      "lat": 32.979,
-      "lng": -84.9728,
-      "observedAt": "2026-09-14T01:15:23.600Z",
-      "ageSeconds": 0.4,
-      "telemetry": {
-        "altitudeFeet": 35000,
-        "groundSpeedKnots": 461.2,
-        "headingDegrees": 123.9,
-        "verticalRateFeetPerMinute": 64,
-        "squawk": "1554"
-      },
-      "trackPoints": [
-        {
-          "lat": 41.66146,
-          "lng": -97.37042,
-          "observedAt": "2026-09-13T16:28:45.202Z"
-        },
-        {
-          "lat": 47.57497,
-          "lng": -116.63498,
-          "observedAt": "2026-09-13T18:51:39.551Z"
-        },
-        {
-          "lat": 48.2411,
-          "lng": -122.44889,
-          "observedAt": "2026-09-13T21:09:44.050Z"
-        },
-        {
-          "lat": 41.03243,
-          "lng": -102.52808,
-          "observedAt": "2026-09-13T23:14:31.378Z"
-        },
-        {
-          "lat": 32.979,
-          "lng": -84.9728,
-          "observedAt": "2026-09-14T01:15:23.600Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "af83f3",
-      "hex": "af83f3",
-      "callsign": "AF1",
-      "registration": "25-3300",
-      "type": "B742",
-      "description": null,
-      "registeredOwner": null,
-      "registeredOwnerConfidence": "unknown",
-      "country": null,
-      "countryConfidence": "unknown",
-      "countrySource": null,
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 40.31903,
-      "lng": -75.11396,
-      "observedAt": "2026-09-14T01:15:23.660Z",
-      "ageSeconds": 0.3,
-      "telemetry": {
-        "altitudeFeet": 20350,
-        "groundSpeedKnots": 399.7,
-        "headingDegrees": 226.9,
-        "verticalRateFeetPerMinute": -1472,
-        "squawk": "0747"
-      },
-      "trackPoints": [
-        {
-          "lat": 40.31903,
-          "lng": -75.11396,
-          "observedAt": "2026-09-14T01:15:23.660Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "afa190",
-      "hex": "afa190",
-      "callsign": "COLT45",
-      "registration": "23-14547",
-      "type": "H60",
-      "description": null,
-      "registeredOwner": null,
-      "registeredOwnerConfidence": "unknown",
-      "country": null,
-      "countryConfidence": "unknown",
-      "countrySource": null,
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 45.55448,
-      "lng": -122.21693,
-      "observedAt": "2026-09-14T01:15:23.759Z",
-      "ageSeconds": 0.2,
-      "telemetry": {
-        "altitudeFeet": -75,
-        "groundSpeedKnots": 121.8,
-        "headingDegrees": 70.8,
-        "verticalRateFeetPerMinute": -64,
-        "squawk": "1200"
-      },
-      "trackPoints": [
-        {
-          "lat": 45.55448,
-          "lng": -122.21693,
-          "observedAt": "2026-09-14T01:15:23.759Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "c0532c",
-      "hex": "c0532c",
-      "callsign": null,
-      "registration": "C-GFMX",
-      "type": "DH8C",
-      "description": null,
-      "registeredOwner": "PAL Aerospace Ltd",
-      "registeredOwnerConfidence": "reported",
-      "country": "Canada",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/C0532C"
-      },
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": 51.08281,
-      "lng": 1.56956,
-      "observedAt": "2026-09-14T01:15:23.965Z",
-      "ageSeconds": 0,
-      "telemetry": {
-        "altitudeFeet": 4725,
-        "groundSpeedKnots": 156,
-        "headingDegrees": 202.6,
-        "verticalRateFeetPerMinute": 0,
-        "squawk": "1177"
-      },
-      "trackPoints": [
-        {
-          "lat": 51.08281,
-          "lng": 1.56956,
-          "observedAt": "2026-09-14T01:15:23.965Z"
+          "lat": 50.24492,
+          "lng": 7.27642,
+          "observedAt": "2026-09-14T06:28:58.485Z"
         }
       ],
       "source": {
@@ -3105,15 +3447,15 @@
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": -39.84398,
-      "lng": 175.16482,
-      "observedAt": "2026-09-14T01:15:23.916Z",
-      "ageSeconds": 0.1,
+      "lat": -40.2043,
+      "lng": 175.38694,
+      "observedAt": "2026-09-14T06:29:00.752Z",
+      "ageSeconds": 0,
       "telemetry": {
-        "altitudeFeet": 11450,
-        "groundSpeedKnots": 283.6,
-        "headingDegrees": 40.7,
-        "verticalRateFeetPerMinute": 1216,
+        "altitudeFeet": null,
+        "groundSpeedKnots": 15.5,
+        "headingDegrees": null,
+        "verticalRateFeetPerMinute": null,
         "squawk": "6301"
       },
       "trackPoints": [
@@ -3121,52 +3463,11 @@
           "lat": -39.84398,
           "lng": 175.16482,
           "observedAt": "2026-09-14T01:15:23.916Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "c87f22",
-      "hex": "c87f22",
-      "callsign": "TEX02",
-      "registration": "NZ1402",
-      "type": "TEX2",
-      "description": null,
-      "registeredOwner": "Royal New Zealand Air Force",
-      "registeredOwnerConfidence": "reported",
-      "country": "New Zealand",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/C87F22"
-      },
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": -40.02415,
-      "lng": 175.29773,
-      "observedAt": "2026-09-14T01:15:23.750Z",
-      "ageSeconds": 0.2,
-      "telemetry": {
-        "altitudeFeet": 10550,
-        "groundSpeedKnots": 164.4,
-        "headingDegrees": 273.8,
-        "verticalRateFeetPerMinute": 2240,
-        "squawk": "6566"
-      },
-      "trackPoints": [
-        {
-          "lat": -40.24776,
-          "lng": 175.20384,
-          "observedAt": "2026-09-13T23:14:31.398Z"
         },
         {
-          "lat": -40.02415,
-          "lng": 175.29773,
-          "observedAt": "2026-09-14T01:15:23.750Z"
+          "lat": -40.2043,
+          "lng": 175.38694,
+          "observedAt": "2026-09-14T06:29:00.752Z"
         }
       ],
       "source": {
@@ -3192,22 +3493,27 @@
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": -40.00336,
-      "lng": 175.47463,
-      "observedAt": "2026-09-14T01:15:23.625Z",
-      "ageSeconds": 0.4,
+      "lat": -40.20566,
+      "lng": 175.38611,
+      "observedAt": "2026-09-14T06:29:00.752Z",
+      "ageSeconds": 0,
       "telemetry": {
-        "altitudeFeet": 8575,
-        "groundSpeedKnots": 179,
-        "headingDegrees": 353.9,
-        "verticalRateFeetPerMinute": 2240,
-        "squawk": "6366"
+        "altitudeFeet": null,
+        "groundSpeedKnots": 25.5,
+        "headingDegrees": null,
+        "verticalRateFeetPerMinute": null,
+        "squawk": "6577"
       },
       "trackPoints": [
         {
           "lat": -40.00336,
           "lng": 175.47463,
           "observedAt": "2026-09-14T01:15:23.625Z"
+        },
+        {
+          "lat": -40.20566,
+          "lng": 175.38611,
+          "observedAt": "2026-09-14T06:29:00.752Z"
         }
       ],
       "source": {
@@ -3216,10 +3522,10 @@
       }
     },
     {
-      "id": "c87f2a",
-      "hex": "c87f2a",
-      "callsign": "TEX10",
-      "registration": "NZ1410",
+      "id": "c87f27",
+      "hex": "c87f27",
+      "callsign": "TEX07",
+      "registration": "NZ1407",
       "type": "TEX2",
       "description": null,
       "registeredOwner": "Royal New Zealand Air Force",
@@ -3228,109 +3534,27 @@
       "countryConfidence": "reported",
       "countrySource": {
         "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/C87F2A"
+        "url": "https://api.adsbdb.com/v0/aircraft/C87F27"
       },
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": -40.16171,
-      "lng": 175.3924,
-      "observedAt": "2026-09-14T01:15:23.904Z",
-      "ageSeconds": 0.1,
-      "telemetry": {
-        "altitudeFeet": 1275,
-        "groundSpeedKnots": 216.4,
-        "headingDegrees": 43.5,
-        "verticalRateFeetPerMinute": 384,
-        "squawk": "6360"
-      },
-      "trackPoints": [
-        {
-          "lat": -40.16171,
-          "lng": 175.3924,
-          "observedAt": "2026-09-14T01:15:23.904Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "c87f36",
-      "hex": "c87f36",
-      "callsign": "KNG50",
-      "registration": "NZ2350",
-      "type": "B350",
-      "description": null,
-      "registeredOwner": "Royal New Zealand Air Force",
-      "registeredOwnerConfidence": "reported",
-      "country": "New Zealand",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/C87F36"
-      },
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": -40.20319,
-      "lng": 175.3761,
-      "observedAt": "2026-09-14T01:15:23.633Z",
+      "lat": -40.19938,
+      "lng": 175.37608,
+      "observedAt": "2026-09-14T06:29:00.400Z",
       "ageSeconds": 0.4,
       "telemetry": {
-        "altitudeFeet": 225,
-        "groundSpeedKnots": 147.4,
-        "headingDegrees": 289.4,
+        "altitudeFeet": null,
+        "groundSpeedKnots": 0,
+        "headingDegrees": 289.7,
         "verticalRateFeetPerMinute": null,
-        "squawk": "6570"
+        "squawk": "6367"
       },
       "trackPoints": [
         {
-          "lat": -40.20319,
-          "lng": 175.3761,
-          "observedAt": "2026-09-14T01:15:23.633Z"
-        }
-      ],
-      "source": {
-        "id": "adsb.lol",
-        "url": "https://api.adsb.lol/v2/mil"
-      }
-    },
-    {
-      "id": "c87f39",
-      "hex": "c87f39",
-      "callsign": "KNG53",
-      "registration": "NZ2353",
-      "type": "B350",
-      "description": null,
-      "registeredOwner": "Royal New Zealand Air Force",
-      "registeredOwnerConfidence": "reported",
-      "country": "New Zealand",
-      "countryConfidence": "reported",
-      "countrySource": {
-        "id": "adsbdb",
-        "url": "https://api.adsbdb.com/v0/aircraft/C87F39"
-      },
-      "classification": "unknown",
-      "classificationMethod": "insufficient-evidence",
-      "classificationConfidence": "unknown",
-      "lat": -45.15711,
-      "lng": 170.99181,
-      "observedAt": "2026-09-14T01:15:23.630Z",
-      "ageSeconds": 0.4,
-      "telemetry": {
-        "altitudeFeet": 17875,
-        "groundSpeedKnots": 275.7,
-        "headingDegrees": 213.5,
-        "verticalRateFeetPerMinute": -1440,
-        "squawk": "6565"
-      },
-      "trackPoints": [
-        {
-          "lat": -45.15711,
-          "lng": 170.99181,
-          "observedAt": "2026-09-14T01:15:23.630Z"
+          "lat": -40.19938,
+          "lng": 175.37608,
+          "observedAt": "2026-09-14T06:29:00.400Z"
         }
       ],
       "source": {
@@ -3353,22 +3577,27 @@
       "classification": "unknown",
       "classificationMethod": "insufficient-evidence",
       "classificationConfidence": "unknown",
-      "lat": -11.54942,
-      "lng": -77.56978,
-      "observedAt": "2026-09-14T01:15:23.690Z",
-      "ageSeconds": 0.3,
+      "lat": -11.0863,
+      "lng": -77.65298,
+      "observedAt": "2026-09-14T06:28:57.146Z",
+      "ageSeconds": 3.6,
       "telemetry": {
-        "altitudeFeet": 23375,
-        "groundSpeedKnots": 202.9,
-        "headingDegrees": 321.6,
-        "verticalRateFeetPerMinute": 928,
-        "squawk": "1761"
+        "altitudeFeet": 19000,
+        "groundSpeedKnots": 261.5,
+        "headingDegrees": 156.1,
+        "verticalRateFeetPerMinute": null,
+        "squawk": null
       },
       "trackPoints": [
         {
           "lat": -11.54942,
           "lng": -77.56978,
           "observedAt": "2026-09-14T01:15:23.690Z"
+        },
+        {
+          "lat": -11.0863,
+          "lng": -77.65298,
+          "observedAt": "2026-09-14T06:28:57.146Z"
         }
       ],
       "source": {
